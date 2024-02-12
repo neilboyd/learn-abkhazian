@@ -168,6 +168,20 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
+      path: en
+    values:
+      layout: page
+  - scope:
+      path: tr
+    values:
+      lang: tr-TR
+      layout: page
+  - scope:
+      path: ru
+    values:
+      lang: ru-RU
+      layout: page
+  - scope:
       path: assets/js/dist
     values:
       swcache: true
