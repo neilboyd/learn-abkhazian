@@ -145,6 +145,15 @@ collections:
   tabs:
     output: true
     sort_by: order
+  en:
+    output: true
+    sort_by: order
+  ru:
+    output: true
+    sort_by: order
+  tr:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
@@ -168,19 +177,22 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: en
+      path: ""
+      type: en
     values:
-      layout: page
+      layout: page-nav
   - scope:
-      path: tr
+      path: ""
+      type: tr
     values:
       lang: tr-TR
-      layout: page
+      layout: page-nav
   - scope:
-      path: ru
+      path: ""
+      type: ru
     values:
       lang: ru-RU
-      layout: page
+      layout: page-nav
   - scope:
       path: assets/js/dist
     values:
