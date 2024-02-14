@@ -2,7 +2,9 @@
 title: Index tab in Turkish
 lang: tr-TR
 icon: fas fa-ice-cream
-order: 3
+order: 4
 ---
 
 Index tab in Turkish
+
+[Start here](/tr)
