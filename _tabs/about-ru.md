@@ -1,10 +1,10 @@
 ---
-title: Index tab in Russian
+title: About page in Russian
 lang: ru-RU
 icon: fas fa-snowman
-order: 3
+order: 2
 ---
 
-Index tab in Russian
+About page in Russian
 
 [Start here](/ru)
