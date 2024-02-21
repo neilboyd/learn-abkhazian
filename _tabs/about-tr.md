@@ -1,10 +1,30 @@
 ---
-title: About page in Turkish
+title: türkçe
 lang: tr-TR
 icon: fas fa-ice-cream
-order: 3
+order: 2
 ---
 
-About page in Turkish
+Introduction in Turkish
 
-[Start here](/tr)
+
+
+
+
+
+
+
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+    <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
+      <p>-</p>
+    </div>
+
+    <a
+      href="/tr"
+      class="btn btn-outline-primary"
+      aria-label="{{ next }}"
+    >
+      <p>Giri&#351;</p>
+    </a>
+</nav>

@@ -2,4 +2,4 @@
 order: 1
 ---
 
-Index page in Russian
+TOC in Russian

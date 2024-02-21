@@ -2,4 +2,4 @@
 order: 1
 ---
 
-Index page in Turkish
+TOC in Turkish
