@@ -1,10 +1,10 @@
 ---
-title: Index tab in Turkish
+title: About page in Turkish
 lang: tr-TR
 icon: fas fa-ice-cream
-order: 4
+order: 3
 ---
 
-Index tab in Turkish
+About page in Turkish
 
 [Start here](/tr)
