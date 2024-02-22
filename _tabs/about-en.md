@@ -1,11 +1,9 @@
 ---
-title: English
+title: Introduction
 lang: en
 icon: fas fa-mug-hot
 order: 1
 ---
-
-<h3>Introduction</h3>
 
 <p>
 You are about to start a course of Abkhazian language.
@@ -50,20 +48,16 @@ Grammar rule.
 </p>
 
 <p>
-<u>Note from Apsni.com:</u><br />
-This course is from a book which recently appeared in bookshops in Abkhazia.
+<u>Note from learn-abkhazian.com:</u><br />
+This course is from a book which I bought in a bookshop in Abkhazia.
 The book is in Russian and has been translated into English by
-<a href="http://apsni.com/contact.htm">Neil</a>.
+<a href="https://github.com/neilboyd/learn-abkhazian">me</a>.
 Since the original is in Russian, it assumes the reader is familiar with Russian -
 an assumption which remains with this translation since I have
-attempted not to alter the text.
-You can find plenty of introductions to the Russian alphabet on the web, for example
-<a target="_blank" href="http://www.shokhirev.com/nikolai/lang/table.html">this</a>
-and
-<a target="_blank" href="http://langintro.com/rintro/toc.htm">this</a>.<br />
+attempted not to alter the text.<br />
 The book is called &quot;Teach Yourself Abkhazian, part 1&quot;, printed in Sukhumi 2003,
 with thanks to
-<a target="_blank" href="http://www.soros.org/about/foundations">The Soros Foundation</a>.
+<a href="https://www.soros.org/">The Soros Foundation</a>.
 No copyright is claimed.<br />
 Authors: B.G.&nbsp;Jonua, A.N.&nbsp;Kiut;
 Drawings: V.V.&nbsp;Vouba;
@@ -84,20 +78,16 @@ I have not finished the translation yet.
 I will start from the beginning and continue until it's finished.
 </p>
 
-
-
-
-
 <nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
     <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
       <p>-</p>
     </div>
 
     <a
-      href="/en"
+      href="/en/les1"
       class="btn btn-outline-primary"
       aria-label="{{ next }}"
     >
-      <p>Introduction</p>
+      <p>Lesson 1</p>
     </a>
 </nav>

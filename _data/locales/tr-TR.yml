@@ -2,3 +2,7 @@ post:
   button:
     next: Sonraki ders
     previous: Önceki ders
+tabs:
+  about-en: English
+  about-ru: русский
+  about-tr: türkçe
