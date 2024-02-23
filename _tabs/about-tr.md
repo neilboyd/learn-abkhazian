@@ -144,12 +144,12 @@ Metni
 dinlemek
 i&#231;in
 bas&#305;n<br />
-<img src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
+<img class="normal" src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
 Dikkat
 edin.
 &#214;nemli
 bilgi!<br />
-<img src="/assets/img/tick.gif" width="14" height="18" border="0" alt="Grammar rule" />
+<img class="normal" src="/assets/img/tick.gif" width="14" height="18" border="0" alt="Grammar rule" />
 Gramer
 kural&#305;.
 </p>
