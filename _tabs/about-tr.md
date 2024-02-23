@@ -139,11 +139,11 @@ YOLCULUKLAR!</b>
 metinde
 kullan&#305;lan
 semboller:<br />
-<img src="/assets/img/listen.gif" width="12" height="12" border="0" alt="Listen" />
+<span class="normal audio-link"><img src="/assets/img/listen.gif" width="12" height="12" border="0" alt="Listen" />
 Metni
 dinlemek
 i&#231;in
-bas&#305;n<br />
+bas&#305;n<br /></span>
 <img class="normal" src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
 Dikkat
 edin.
