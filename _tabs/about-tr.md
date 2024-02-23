@@ -533,34 +533,7 @@ Neil&#8217;e
 g&#246;nderirim.
 </p>
 
-<p>
-&#304;leti&#351;im
-bilgilerim:
-Akif
-&#199;ergel<br />
-Advansa
-SASA
-Polyester
-Sanayi
-A.&#350;.
-Tarsus
-Yolu
-&#252;zeri
-Adana
-/
-T&#252;rkiye<br />
-Tel:
-0090
-322
-4410053-2293
-work<br />
-Mobile:
-0090
-532
-39937318<br />
-e-mail:
-<a href="mailto:%61%6b%69%66&#0046;%63%65%72%67%65%6c&#0064;%61%64%76%61%6e%73%61&#0046;%63%6f%6d">akif&#0046;cergel&#0064;advansa&#0046;com</a>
-</p>
+<p>Akif &#199;ergel</p>
 
 <nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
     <div class="btn btn-outline-primary disabled" aria-label="{{ previous }}">
