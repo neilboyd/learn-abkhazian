@@ -39,11 +39,11 @@ If so, then<br />
 </p>
 
 <p>Symbols used in the text:<br />
-<span class="normal audio-link"><img src="/assets/img/listen.gif" width="12" height="12" border="0" alt="Listen" />
-Click to listen to the adjacent text<br /></span>
-<img class="normal" class="normal" src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
+<i class="fas fa-volume-low audio-link"></i>
+Click to listen to the adjacent text<br />
+<i class="fas fa-bolt important-material"></i>
 Pay attention. Important material!<br />
-<img class="normal" class="normal" src="/assets/img/tick.gif" width="14" height="18" border="0" alt="Grammar rule" />
+<i class="fas fa-check grammar-rule"></i>
 Grammar rule.
 </p>
 

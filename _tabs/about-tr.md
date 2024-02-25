@@ -139,17 +139,17 @@ YOLCULUKLAR!</b>
 metinde
 kullanılan
 semboller:<br />
-<span class="normal audio-link"><img src="/assets/img/listen.gif" width="12" height="12" border="0" alt="Listen" />
+<i class="fas fa-volume-low audio-link"></i>
 Metni
 dinlemek
 için
-basın<br /></span>
-<img class="normal" src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
+basın<br />
+<i class="fas fa-bolt important-material"></i>
 Dikkat
 edin.
 Önemli
 bilgi!<br />
-<img class="normal" src="/assets/img/tick.gif" width="14" height="18" border="0" alt="Grammar rule" />
+<i class="fas fa-check grammar-rule"></i>
 Gramer
 kuralı.
 </p>

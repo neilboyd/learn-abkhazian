@@ -150,13 +150,13 @@ order: 3
 
 <p>Принятые
 пометы:<br />
-<span class="normal audio-link"><img src="/assets/img/listen.gif" width="12" height="12" border="0" alt="Listen" />
+<i class="fas fa-volume-low audio-link"></i>
 Нажмите
 чтобы
 слушать
 сопровождения
-текста.<br /></span>
-<img class="normal" src="/assets/img/lightning.gif" width="14" height="18" border="0" alt="Important material" />
+текста.<br />
+<i class="fas fa-bolt important-material"></i>
 Обратите
 вниманин
 на
@@ -164,7 +164,7 @@ order: 3
 матерериал.
 Это
 важно!<br />
-<img class="normal" src="/assets/img/tick.gif" width="14" height="18" border="0" alt="Grammar rule" />
+<i class="fas fa-check grammar-rule"></i>
 Грамматические
 правила.
 </p>
