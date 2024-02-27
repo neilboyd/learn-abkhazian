@@ -6,3 +6,5 @@ tabs:
   about-en: English
   about-ru: русский
   about-tr: türkçe
+layout:
+  page-nav: Learn Abkhazian # same as site.title
