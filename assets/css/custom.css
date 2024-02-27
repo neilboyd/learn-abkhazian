@@ -1,5 +1,3 @@
-/*
-.audio-link {
-  display: none;
+a.audio-link {
+  color: var(--text-color);
 }
-*/
