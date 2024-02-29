@@ -20,10 +20,11 @@
 
 <script>
   /* Note: dependent library will be loaded in `js-selector.html` */
+  /* TODO: load the correct search.json - for home load the tabs one, for tabs load the one for the tab language */
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
-    json: '{{ '/assets/js/data/search.json' | relative_url }}',
+    json: '{{ '/assets/js/data/search-tabs.json' | relative_url }}',
     searchResultTemplate: '{{ result_elem | strip_newlines }}',
     noResultsText: '{{ not_found }}',
     templateMiddleware: function(prop, value, template) {

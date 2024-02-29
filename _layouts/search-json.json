@@ -2,87 +2,22 @@
 layout: compress
 swcache: true
 ---
-
 [
-
-  {% for post in site.pages %}
-  {
-    "post": {{ post.name }}
-    "collection": {{ post.collection }}
-    "collections": {{ post.collections }}
-  }
-  {% endfor %}
-
-
-
-
-/* --- */
-
-  collection {{ collection }}
-  page.collection {{ page.collection }}
-  {% assign foo = site.collections | where: 'name', page.collection | first %}
-  foo {{ foo }}
-  collections: {{ site.collections }}
-  {% assign bar = site.collections | where: 'collection', page.collection | first %}
-  bar {{ bar }}
-
-
-/* --- */
-
 {% for collection in site.collections %}
-
-  "collection": {{ collection }}
-
-  {% for page in collection %}
+  {% assign posts = collection.docs | where:"collection", page.collection %}
+  {% for post in posts %}
     {
-      "page": {{ page }}
-      "page collection": {{ page.collection }}
-      }
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "categories": {{ post.categories | join: ', ' | jsonify }},
+      "tags": {{ post.tags | join: ', ' | jsonify }},
+      "date": "{{ post.date }}",
+      {% include no-linenos.html content=post.content %}
+      {% assign _content = content | strip_html | strip_newlines %}
+      "snippet": {{ _content | truncate: 200 | jsonify }},
+      "content": {{ _content | jsonify }}
+      },
     {% endfor %}
-
-
-    {% for doc in collection.docs %}
-    {
-      "doc": {{ doc.name }}
-      "snippet": {{ doc.snippet }}
-      // getting there - now do the stuff from the original
-    }
-    {% endfor %}
-
 {% endfor %}
-
-
-
-/* --- */
-
-{% for post in site.collections[collection] %}
-  {
-    "title": {{ post }}
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
-
-/* --- */
-
-  {% for post in site.collections %}
-  {
-    "title": {{ post }}
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
-
-/* --- */
-
-  {% assign pages = site.pages | concat: site.posts | concat: site.categories[2] %}
-  {% for post in pages %}
-  {
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "date": "{{ post.date }}",
-    {% include no-linenos.html content=post.content %}
-    {% assign _content = content | strip_html | strip_newlines %}
-    "snippet": {{ _content | truncate: 200 | jsonify }},
-    "content": {{ _content | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+{}
 ]
