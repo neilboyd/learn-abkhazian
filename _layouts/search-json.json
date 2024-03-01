@@ -1,0 +1,23 @@
+---
+layout: compress
+swcache: true
+---
+[
+{%- for collection in site.collections -%}
+  {%- assign posts = collection.docs | where:"lang", page.lang -%}
+  {% for post in posts %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "categories": {{ post.categories | join: ', ' | jsonify }},
+      "tags": {{ post.tags | join: ', ' | jsonify }},
+      "date": "{{ post.date }}",
+      {%- include no-linenos.html content=post.content -%}
+      {%- assign _content = content | strip_html | strip_newlines -%}
+      "snippet": {{ _content | truncate: 200 | jsonify }},
+      "content": {{ _content | jsonify }}
+      },
+    {% endfor %}
+{%- endfor -%}
+{}
+]

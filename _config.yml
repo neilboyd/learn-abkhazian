@@ -183,6 +183,7 @@ defaults:
       path: ""
       type: en
     values:
+      lang: en
       layout: page-nav
   - scope:
       path: ""
