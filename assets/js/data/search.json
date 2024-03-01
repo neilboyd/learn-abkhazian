@@ -3,10 +3,11 @@ layout: compress
 swcache: true
 ---
 [
-{%- for collection in site.collections -%}
-  {%- assign posts = collection.docs | where:"lang", page.lang -%}
-  {% for post in posts %}
+  {%- assign pages = site.pages | concat: site.tabs -%}
+  {%- for post in pages -%}
+    {%- if post.title -%}
     {
+      "lang": {{ post.lang | jsonify }},
       "title": {{ post.title | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
       "categories": {{ post.categories | join: ', ' | jsonify }},
@@ -16,8 +17,8 @@ swcache: true
       {%- assign _content = content | strip_html | strip_newlines -%}
       "snippet": {{ _content | truncate: 200 | jsonify }},
       "content": {{ _content | jsonify }}
-      },
-    {% endfor %}
-{%- endfor -%}
+    },
+    {% endif %}
+  {%- endfor -%}
 {}
 ]
