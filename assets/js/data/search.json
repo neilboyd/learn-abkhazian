@@ -2,6 +2,10 @@
 layout: compress
 swcache: true
 ---
+{% comment %}
+the idea was that based on some condition, include this file in search-loader.html on the home page rather than the json for the page language,
+but I couldn't find a condition that works
+{% endcomment %}
 [
   {%- assign pages = site.pages | concat: site.tabs -%}
   {%- for post in pages -%}
