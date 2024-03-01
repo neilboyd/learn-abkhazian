@@ -1,0 +1,28 @@
+---
+layout: compress
+swcache: true
+---
+{% comment %}
+the idea was that based on some condition, include this file in search-loader.html on the home page rather than the json for the page language,
+but I couldn't find a condition that works
+{% endcomment %}
+[
+  {%- assign pages = site.pages | concat: site.tabs -%}
+  {%- for post in pages -%}
+    {%- if post.title -%}
+    {
+      "lang": {{ post.lang | jsonify }},
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "categories": {{ post.categories | join: ', ' | jsonify }},
+      "tags": {{ post.tags | join: ', ' | jsonify }},
+      "date": "{{ post.date }}",
+      {%- include no-linenos.html content=post.content -%}
+      {%- assign _content = content | strip_html | strip_newlines -%}
+      "snippet": {{ _content | truncate: 200 | jsonify }},
+      "content": {{ _content | jsonify }}
+    },
+    {% endif %}
+  {%- endfor -%}
+{}
+]
