@@ -12,7 +12,6 @@ layout: compress
   {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
 {% endif %}
 
-<!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="{{ lang }}" {{ prefer_mode }}>
   {% include head.html %}
 
@@ -76,10 +75,10 @@ layout: compress
 
     <!-- JavaScripts -->
 
-    {% include js-selector.html %}
+    {% include js-selector.html lang=lang %}
 
     {% if page.mermaid %}
-      {% include mermaid.html %}
+      {% include mermaid.html lang=lang %}
     {% endif %}
 
     {% include_cached search-loader.html lang=lang %}
