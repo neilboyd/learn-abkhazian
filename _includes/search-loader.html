@@ -18,10 +18,11 @@
 
 {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
-{% comment %}home page is not in a collection so use the global search.json{% endcomment %}
 {% if include.collection %}
+  <!-- use search.json for the page language -->
   {% assign search_json = '/assets/js/data/search-' | append: include.lang | append: '.json' %}
 {% else %}
+  <!-- use global search.json on the home page -->
   {% assign search_json = '/assets/js/data/search.json' %}
 {% endif %}
 
