@@ -18,7 +18,13 @@
 
 {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
-{% capture search_json %}/assets/js/data/search-{{ page.lang }}.json{% endcapture %}
+{% if include.collection %}
+  <!-- use search.json for the page language -->
+  {% assign search_json = '/assets/js/data/search-' | append: include.lang | append: '.json' %}
+{% else %}
+  <!-- use global search.json on the home page -->
+  {% assign search_json = '/assets/js/data/search.json' %}
+{% endif %}
 
 <script>
   /* Note: dependent library will be loaded in `js-selector.html` */
