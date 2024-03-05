@@ -11,3 +11,15 @@ Contributions are welcome.
 The preferred method is with a
 [GitHub Pull Request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
 But if that's too technical, contributions in any form are welcome.
+
+TODO:
+- [ ] RU: lesson 15-22, including answers and review
+- [ ] EN: lesson 15-22, including answers and review
+- [ ] TR: lesson 12-22, including answers and review
+- [ ] RU, EN, TR: additional material
+- [ ] RU: Abkhazian-Russian dictionary
+- [ ] RU: Russian-Abkhazian dictionary
+- [ ] EN: Abkhazian-English dictionary
+- [ ] EN: English-Abkhazian dictionary
+- [ ] TR: Abkhazian-Turkish dictionary
+- [ ] TR: Turkish-Abkhazian dictionary

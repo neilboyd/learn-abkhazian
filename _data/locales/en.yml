@@ -8,3 +8,8 @@ tabs:
   about-tr: türkçe
 layout:
   page-nav: Learn Abkhazian # same as site.title
+not_found: # only need this translation in site.lang language
+  statment: >-
+    Sorry, that page isn't found.<br />
+    This site is still a work in progress and more content will become available shortly.<br />
+    Please come back later.
