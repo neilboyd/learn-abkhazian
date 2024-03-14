@@ -1,4 +1,4 @@
-function playAudio(el) {
+const playAudio = function (el) {
   const audio = el.getElementsByTagName('audio')[0];
   audio.addEventListener("play", () => startPlayAudio(el));
   audio.addEventListener("ended", () => endPlayAudio(el));
@@ -6,19 +6,21 @@ function playAudio(el) {
   audio.play()
 }
 
-function startPlayAudio(el) {
+const startPlayAudio = function (el) {
   el.classList.remove("fa-volume-low")
   el.classList.add("fa-volume-high");
   el.classList.add("text-info");
 }
 
-function endPlayAudio(el) {
+const endPlayAudio = function (el) {
   el.classList.remove("fa-volume-high")
   el.classList.remove("text-info");
   el.classList.add("fa-volume-low");
 }
 
-function errorPlayAudio(el) {
+const errorPlayAudio = function (el) {
+  el.classList.remove("fa-volume-high")
+  el.classList.remove("text-info");
+  el.classList.add("fa-volume-xmark");
   el.classList.add("text-danger");
-  endPlayAudio(el);
 }
