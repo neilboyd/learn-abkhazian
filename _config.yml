@@ -179,7 +179,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-      comments: true
   - scope:
       path: ""
       type: en
