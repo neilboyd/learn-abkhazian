@@ -179,24 +179,28 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+      comments: true
   - scope:
       path: ""
       type: en
     values:
       lang: en
       layout: page-nav
+      comments: true
   - scope:
       path: ""
       type: tr
     values:
       lang: tr-TR
       layout: page-nav
+      comments: true
   - scope:
       path: ""
       type: ru
     values:
       lang: ru-RU
       layout: page-nav
+      comments: true
   - scope:
       path: assets/js/dist
     values:
