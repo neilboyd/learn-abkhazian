@@ -131,6 +131,9 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+# Base URL of audio files
+audiourl: "https://audio.learn-abkhazian.com/audio"
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
@@ -184,21 +187,21 @@ defaults:
       type: en
     values:
       lang: en
-      layout: page-nav
+      layout: lesson
       comments: true
   - scope:
       path: ""
       type: tr
     values:
       lang: tr-TR
-      layout: page-nav
+      layout: lesson
       comments: true
   - scope:
       path: ""
       type: ru
     values:
       lang: ru-RU
-      layout: page-nav
+      layout: lesson
       comments: true
   - scope:
       path: assets/js/dist

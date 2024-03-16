@@ -7,4 +7,4 @@ tabs:
   about-ru: русский
   about-tr: türkçe
 layout:
-  page-nav: Learn Abkhazian # same as site.title
+  lesson: Learn Abkhazian # same as site.title

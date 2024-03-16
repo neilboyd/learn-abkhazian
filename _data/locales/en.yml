@@ -7,7 +7,7 @@ tabs:
   about-ru: русский
   about-tr: türkçe
 layout:
-  page-nav: Learn Abkhazian # same as site.title
+  lesson: Learn Abkhazian # same as site.title
 not_found: # only need this translation in site.lang language
   statment: >-
     Sorry, that page isn't found.<br />
