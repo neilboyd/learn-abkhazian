@@ -5,9 +5,6 @@ updates:
     schedule:
       interval: "weekly"
     ignore:
-    - dependency-name: jekyll-theme-chirpy
-      versions:
-      - ">= 6.3" # depends on Ruby 3.0
     - dependency-name: html-proofer
       versions:
       - ">= 5.0" # depends on Ruby 3.1
