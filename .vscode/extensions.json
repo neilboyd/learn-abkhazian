@@ -1,8 +1,5 @@
 {
   "recommendations": [
-    // Convert html escaped text to/from plain text
-    "mitchdenny.ecdc",
-    
     // Liquid tags auto-complete
     "killalau.vscode-liquid-snippets",
     // Liquid syntax highlighting and formatting
