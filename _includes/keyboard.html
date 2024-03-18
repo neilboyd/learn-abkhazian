@@ -1,0 +1,130 @@
+<input id="kbInput" type="text" />
+<div class="keyboard">
+  <input type="button" value="Ә" onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input type="button" value="Қ" onclick="press(this);" />
+  <input type="button" value="Ҟ" onclick="press(this);" />
+  <input type="button" value="Ҩ" onclick="press(this);" />
+  <input type="button" value="Ҧ" onclick="press(this);" />
+  <input type="button" value="Ҭ" onclick="press(this);" />
+  <input type="button" value="Ҽ" onclick="press(this);" />
+  <input type="button" value="Ҿ" onclick="press(this);" />
+  <input type="button" value=" " class="three" />
+</div>
+<div class="keyboard">
+  <input type="button" value=" " class="three" />
+  <input type="button" value="Ҵ" onclick="press(this);" />
+  <input type="button" value="Ц" onclick="press(this);" />
+  <input type="button" value="У" onclick="press(this);" />
+  <input type="button" value="К" onclick="press(this);" />
+  <input type="button" value="Е" onclick="press(this);" />
+  <input type="button" value="Н" onclick="press(this);" />
+  <input type="button" value="Г" onclick="press(this);" />
+  <input type="button" value="Ш" onclick="press(this);" />
+  <input type="button" value="Ӡ" onclick="press(this);" />
+  <input type="button" value="З" onclick="press(this);" />
+  <input type="button" value="Х" onclick="press(this);" />
+  <input type="button" value="Ҳ" onclick="press(this);" />
+  <input type="button" value="Џ" onclick="press(this);" />
+</div>
+<div class="keyboard">
+  <input type="button" value=" " class="three-and-a-half" />
+  <input type="button" value="Ф" onclick="press(this);" />
+  <input type="button" value="Ы" onclick="press(this);" />
+  <input type="button" value="В" onclick="press(this);" />
+  <input type="button" value="А" onclick="press(this);" />
+  <input type="button" value="П" onclick="press(this);" />
+  <input type="button" value="Р" onclick="press(this);" />
+  <input type="button" value="О" onclick="press(this);" />
+  <input type="button" value="Л" onclick="press(this);" />
+  <input type="button" value="Д" onclick="press(this);" />
+  <input type="button" value="Ж" onclick="press(this);" />
+  <input type="button" value=" " />
+  <input type="button" value=" " class="three-and-a-three-quarters" />
+</div>
+<div class="keyboard">
+  <input
+    type="button"
+    value="Shift"
+    onclick="shift(!isShift);"
+    class="four-and-a-half shift"
+  />
+  <input type="button" value="Ҷ" onclick="press(this);" />
+  <input type="button" value="Ч" onclick="press(this);" />
+  <input type="button" value="С" onclick="press(this);" />
+  <input type="button" value="М" onclick="press(this);" />
+  <input type="button" value="И" onclick="press(this);" />
+  <input type="button" value="Т" onclick="press(this);" />
+  <input type="button" value="Ь" onclick="press(this);" />
+  <input type="button" value="Б" onclick="press(this);" />
+  <input type="button" value="Ҕ" onclick="press(this);" />
+  <input type="button" value=" " onclick="press(this);" />
+  <input
+    type="button"
+    value="Shift"
+    onclick="shift(!isShift);"
+    class="five shift"
+  />
+</div>
+<script>
+  var isShift = false;
+  const kbInput = document.getElementById("kbInput");
+  kbInput.focus();
+  const press = function (e) {
+    if (isShift) {
+      kbInput.value = kbInput.value + e.value;
+    } else {
+      kbInput.value = kbInput.value + e.value.toLowerCase();
+    }
+    kbInput.focus();
+    shift(false);
+  };
+  const shift = function (newShift) {
+    isShift = newShift;
+    Array.prototype.filter.call(
+      document.getElementsByClassName("shift"),
+      (e) => {
+        if (isShift) {
+          e.classList.add("bg-info");
+        } else {
+          e.classList.remove("bg-info");
+        }
+      }
+    );
+  };
+</script>
+<style>
+  #kbInput {
+    width: 39em;
+  }
+  .keyboard {
+    text-wrap: nowrap;
+    padding: 0.1em;
+  }
+  .keyboard input[type="button"] {
+    width: 2em;
+    font-size: 1.25em;
+  }
+  .keyboard input[type="button"].three {
+    width: 3em;
+  }
+  .keyboard input[type="button"].three-and-a-half {
+    width: 3.5em;
+  }
+  .keyboard input[type="button"].three-and-a-three-quarters {
+    width: 3.75em;
+  }
+  .keyboard input[type="button"].four {
+    width: 4em;
+  }
+  .keyboard input[type="button"].four-and-a-half {
+    width: 4.5em;
+  }
+  .keyboard input[type="button"].five {
+    width: 5em;
+  }
+</style>
