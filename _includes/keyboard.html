@@ -1,4 +1,7 @@
-<input id="kbInput" type="text" />
+<div class="keyboard">
+  <input id="kbInput" type="text" />
+  <button onclick="copy();"><i class="fas fa-copy"></i></button>
+</div>
 <div class="keyboard">
   <input type="button" class="kbd-key" value="Ҵ" onclick="press(this);" />
   <input type="button" class="kbd-key" value="ц" onclick="press(this);" />
@@ -49,6 +52,12 @@
     kbInput.focus();
     shift(false);
   };
+  const copy = function () {
+    kbInput.select();
+    kbInput.setSelectionRange(0, 99999); // For mobile devices
+    navigator.clipboard.writeText(kbInput.value);
+    // TODO some kind of notification
+  };
   const shift = function (newShift) {
     isShift = newShift;
     Array.prototype.filter.call(
@@ -75,11 +84,14 @@
 </script>
 <style>
   #kbInput {
-    width: 32em;
+    width: 30em;
   }
   .keyboard {
     text-wrap: nowrap;
     padding: 0.2em;
+  }
+  .keyboard button {
+    width: 2em;
   }
   .keyboard input[type="button"] {
     width: 2em;
