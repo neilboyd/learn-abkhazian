@@ -1,6 +1,7 @@
 <div class="keyboard">
   <input id="kbInput" type="text" />
   <button onclick="copy();"><i class="fas fa-copy"></i></button>
+  <span id="kbd-copy-tooltip">Copied!</span>
 </div>
 <div class="keyboard">
   <input type="button" class="kbd-key" value="Ҵ" onclick="press(this);" />
@@ -56,7 +57,11 @@
     kbInput.select();
     kbInput.setSelectionRange(0, 99999); // For mobile devices
     navigator.clipboard.writeText(kbInput.value);
-    // TODO some kind of notification
+    const tt = document.getElementById("kbd-copy-tooltip");
+    tt.classList.add("visible");
+    setTimeout(() => {
+      tt.classList.remove("visible");
+    }, 3000);
   };
   const shift = function (newShift) {
     isShift = newShift;
@@ -99,5 +104,15 @@
   }
   .keyboard input[type="button"].shift {
     width: 3.1em;
+  }
+  #kbd-copy-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s;
+  }
+  #kbd-copy-tooltip.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s;
   }
 </style>
