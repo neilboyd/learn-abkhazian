@@ -8,8 +8,6 @@
     // Liquid syntax highlighting and formatting
     "Shopify.theme-check-vscode",
     // Common formatter
-    "esbenp.prettier-vscode",
-    "foxundermoon.shell-format",
-    "stylelint.vscode-stylelint"
+    "esbenp.prettier-vscode"
   ]
 }
