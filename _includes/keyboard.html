@@ -1,0 +1,126 @@
+<div class="keyboard">
+  <input id="kbInput" type="text" />
+  <button onclick="copy();"><i class="fas fa-copy"></i></button>
+  <span id="kbd-copy-tooltip">Copied!</span>
+</div>
+<div class="keyboard">
+  <input type="button" value=" " />
+  <input type="button" class="kbd-key" value="џ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҧ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="қ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҟ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҭ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҕ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҽ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҿ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҳ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value=" " onclick="press(this);" />
+</div>
+<div class="keyboard">
+  <input type="button" class="kbd-key" value="ҵ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ц" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="у" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="к" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="е" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="н" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="г" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ш" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ӡ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="з" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="х" onclick="press(this);" />
+</div>
+<div class="keyboard">
+  <input type="button" class="kbd-key" value="ф" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ы" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="в" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="а" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="п" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="р" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="о" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="л" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="д" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ж" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ә" onclick="press(this);" />
+</div>
+<div class="keyboard">
+  <input type="button" value="⬆️" onclick="shift(!isShift);" class="shift" />
+  <input type="button" class="kbd-key" value="ҷ" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ч" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="с" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="м" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="и" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="т" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ь" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="б" onclick="press(this);" />
+  <input type="button" class="kbd-key" value="ҩ" onclick="press(this);" />
+  <input type="button" value="⬆️" onclick="shift(!isShift);" class="shift" />
+</div>
+<script>
+  var isShift = false;
+  const kbInput = document.getElementById("kbInput");
+  kbInput.focus();
+  const press = function (e) {
+    kbInput.value = kbInput.value + e.value;
+    kbInput.focus();
+    shift(false);
+  };
+  const copy = function () {
+    kbInput.select();
+    kbInput.setSelectionRange(0, 99999); // For mobile devices
+    navigator.clipboard.writeText(kbInput.value);
+    const tt = document.getElementById("kbd-copy-tooltip");
+    tt.classList.add("visible");
+    setTimeout(() => {
+      tt.classList.remove("visible");
+    }, 3000);
+  };
+  const shift = function (newShift) {
+    isShift = newShift;
+    Array.prototype.filter.call(
+      document.getElementsByClassName("shift"),
+      (e) => {
+        if (isShift) {
+          e.classList.add("bg-info");
+        } else {
+          e.classList.remove("bg-info");
+        }
+      }
+    );
+    Array.prototype.filter.call(
+      document.getElementsByClassName("kbd-key"),
+      (e) => {
+        if (isShift) {
+          e.value = e.value.toUpperCase();
+        } else {
+          e.value = e.value.toLowerCase();
+        }
+      }
+    );
+  };
+</script>
+<style>
+  #kbInput {
+    width: 27.25em;
+  }
+  .keyboard {
+    text-wrap: nowrap;
+    padding: 0.2em;
+  }
+  .keyboard input[type="button"] {
+    width: 2em;
+    font-size: 1.25em;
+  }
+  .keyboard button {
+    width: 2em;
+  }
+  #kbd-copy-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s;
+  }
+  #kbd-copy-tooltip.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+</style>
