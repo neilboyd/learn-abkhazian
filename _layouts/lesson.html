@@ -8,7 +8,28 @@ tail_includes:
 {% include lang.html %}
 
 <article class="px-1">
-  {{ content }}
+  <h3>{{ page.title }}</h3>
+
+  {% if page.subtitle %}
+  <dl class="subtitle">
+    {% assign subtitle = site.data.locales[lang].layout.subtitle | default: 'Contents' %}
+    <dt>{{ subtitle }}:</dt>
+    {% for subtitle in page.subtitle %}
+      <dd>{{ subtitle }}</dd>
+    {% endfor %}
+  </dl>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
 </article>
 
 <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
+
+<style>
+  dl.subtitle > dd {
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+</style>

@@ -8,6 +8,7 @@ tabs:
   about-tr: türkçe
 layout:
   lesson: Learn Abkhazian # same as site.title
+  subtitle: Contents
 not_found: # only need this translation in site.lang language
   statment: >-
     Sorry, that page isn't found.<br />
