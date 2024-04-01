@@ -8,6 +8,7 @@ tail_includes:
 {% include lang.html %}
 
 <article class="px-1">
+
   <h3>{{ page.title }}</h3>
 
   {% if page.subtitle %}
@@ -23,6 +24,13 @@ tail_includes:
   <div class="content">
     {{ content }}
   </div>
+
+  {% if page.wip %}
+  <p>
+    <i class="fas fa-person-digging"></i>
+    {{ site.data.locales[lang].layout.work_in_progress }}
+  </p>
+  {% endif %}
 
   <div class="post-tail-wrapper text-muted">
     <div class="post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2">
