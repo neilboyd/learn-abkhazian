@@ -13,8 +13,7 @@ tail_includes:
 
   {% if page.subtitle %}
   <dl class="subtitle">
-    {% assign subtitle = site.data.locales[lang].layout.subtitle | default: 'Contents' %}
-    <dt>{{ subtitle }}:</dt>
+    <dt>{{ site.data.locales[lang].layout.subtitle }}:</dt>
     {% for subtitle in page.subtitle %}
       <dd>{{ subtitle }}</dd>
     {% endfor %}
