@@ -23,6 +23,13 @@ tail_includes:
   <div class="content">
     {{ content }}
   </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <div class="post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2">
+      {% include post-sharing.html lang=lang %}
+    </div>
+  </div>
+
 </article>
 
 <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
