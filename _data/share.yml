@@ -10,10 +10,12 @@ platforms:
   - type: WhatsApp
     icon: "fab fa-whatsapp-square"
     link: "whatsapp://send?text=URL"
+    class: whatsapp-web
 
   - type: WhatsApp
     icon: "fab fa-whatsapp-square"
     link: "https://wa.me/?text=URL"
+    class: whatsapp-mobile
 
   - type: Telegram
     icon: "fab fa-telegram"
