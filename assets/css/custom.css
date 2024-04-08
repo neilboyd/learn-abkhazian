@@ -3,7 +3,7 @@
 }
 
 a:has(.whatsapp-mobile) {
-  display: block;
+  display: unset;
 }
 
 a:has(.whatsapp-web) {
@@ -16,6 +16,6 @@ a:has(.whatsapp-web) {
   }
 
   a:has(.whatsapp-web) {
-    display: block;
+    display: unset;
   }
 }
