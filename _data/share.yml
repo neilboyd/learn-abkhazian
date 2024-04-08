@@ -8,14 +8,12 @@ platforms:
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
   - type: WhatsApp
-    icon: "fab fa-whatsapp-square"
+    icon: "fab fa-whatsapp-square whatsapp-mobile"
     link: "whatsapp://send?text=URL"
-    class: whatsapp-web
 
   - type: WhatsApp
-    icon: "fab fa-whatsapp-square"
+    icon: "fab fa-whatsapp-square whatsapp-web"
     link: "https://wa.me/?text=URL"
-    class: whatsapp-mobile
 
   - type: Telegram
     icon: "fab fa-telegram"
