@@ -17,8 +17,6 @@ TODO:
 - [ ] EN: lesson 15-22, including answers and review
 - [ ] TR: lesson 12-22, including answers and review
 - [ ] RU, EN, TR: additional material
-- [ ] RU: Abkhazian-Russian dictionary
-- [ ] RU: Russian-Abkhazian dictionary
 - [ ] EN: Abkhazian-English dictionary
 - [ ] EN: English-Abkhazian dictionary
 - [ ] TR: Abkhazian-Turkish dictionary
