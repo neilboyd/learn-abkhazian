@@ -1,3 +1,21 @@
 .hide-audio .audio {
   display: none;
 }
+
+a:has(.whatsapp-mobile) {
+  display: unset;
+}
+
+a:has(.whatsapp-web) {
+  display: none;
+}
+
+@media all and (min-width: 850px) {
+  a:has(.whatsapp-mobile) {
+    display: none;
+  }
+
+  a:has(.whatsapp-web) {
+    display: unset;
+  }
+}
