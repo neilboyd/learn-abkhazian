@@ -13,7 +13,7 @@ The preferred method is with a
 But if that's too technical, contributions in any form are welcome.
 
 TODO:
-- [ ] RU: lesson 15-22, including answers and review
+- [ ] RU: lesson 16-22, including answers and review
 - [ ] EN: lesson 15-22, including answers and review
 - [ ] TR: lesson 12-22, including answers and review
 - [ ] RU, EN, TR: additional material
