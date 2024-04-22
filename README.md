@@ -13,11 +13,22 @@ The preferred method is with a
 But if that's too technical, contributions in any form are welcome.
 
 TODO:
-- [ ] RU: lesson 16-22, including answers and review
-- [ ] EN: lesson 15-22, including answers and review
-- [ ] TR: lesson 12-22, including answers and review
-- [ ] RU, EN, TR: additional material
-- [ ] EN: Abkhazian-English dictionary
-- [ ] EN: English-Abkhazian dictionary
-- [ ] TR: Abkhazian-Turkish dictionary
-- [ ] TR: Turkish-Abkhazian dictionary
+Russian:
+- [ ] lesson 16, 17, 18, review 6
+- [ ] lesson 19, 20, 21, 22, review 7
+- [ ] additional material
+English:
+- [ ] lesson 15, review 5
+- [ ] lesson 16, 17, 18, review 6
+- [ ] lesson 19, 20, 21, 22, review 7
+- [ ] Abkhazian-English dictionary
+- [ ] English-Abkhazian dictionary
+- [ ] additional material
+Turkish:
+- [ ] lesson 12, review 4
+- [ ] lesson 13, 14, 15, review 5
+- [ ] lesson 16, 17, 18, review 6
+- [ ] lesson 19, 20, 21, 22, review 7
+- [ ] additional material
+- [ ] Abkhazian-Turkish dictionary
+- [ ] Turkish-Abkhazian dictionary
