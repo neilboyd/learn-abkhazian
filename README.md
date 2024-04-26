@@ -13,10 +13,12 @@ The preferred method is with a
 But if that's too technical, contributions in any form are welcome.
 
 TODO:
+
 Russian:
 - [ ] lesson 16, 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
+
 English:
 - [ ] lesson 15, review 5
 - [ ] lesson 16, 17, 18, review 6
@@ -24,6 +26,7 @@ English:
 - [ ] Abkhazian-English dictionary
 - [ ] English-Abkhazian dictionary
 - [ ] additional material
+
 Turkish:
 - [ ] lesson 12, review 4
 - [ ] lesson 13, 14, 15, review 5
