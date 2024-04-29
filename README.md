@@ -20,7 +20,7 @@ Russian:
 - [ ] additional material
 
 English:
-- [ ] lesson 15, review 5
+- [ ] review 5
 - [ ] lesson 16, 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] Abkhazian-English dictionary
