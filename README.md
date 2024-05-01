@@ -20,12 +20,11 @@ Russian:
 - [ ] additional material
 
 English:
-- [ ] review 5
 - [ ] lesson 16, 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
+- [ ] additional material
 - [ ] Abkhazian-English dictionary
 - [ ] English-Abkhazian dictionary
-- [ ] additional material
 
 Turkish:
 - [ ] lesson 12, review 4
