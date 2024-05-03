@@ -13,14 +13,14 @@ order: 901
 аакры'фарҭа dining room. Акрыфартаҿы акрысфеит. I ate in the cafeteria.  
 (а)аны'жьра leave. Иныжь. Leave it. Ара' ины'жь. Leave it here.  
 аа'лын spring. Иаа'ит ааҧын. Spring has come.  
-аара' come; arrive. Бара баайт. You (woman) have come.  
+аара' come; arrive. Бара баайт. You (a woman) have come.  
 аа'тра open. Иаарты'! Open up!  
 аа'хәара buy. Ача аасхәеит. I bought bread.  
 аб father. Сара саб. My father.  
 а'(ие)ҳәшьа sister. Кама саҳәшьа' ло'уп. Kama (is) my sister. Ка'ма дсаҳәшьо'уп. Kama is my sister.  
 а'(ие)шьа brother. Сашьа Беслан ихьӡуп. My brother's name is Beslan.  
 аиаа'ира victory; аиаа'ира агара' win. Аиаа'ра амш аны'ҳәа. Holiday Victory Day  
-айара' lie, сио'уп I am lying, био'уп you (woman) are lying  
+айара' lie, сио'уп I am lying, био'уп you (a woman) are lying  
 а'иасра go over, get over  
 аиҵабы' younger. Сашьа еиҵбы ихьӡуп Беслан  
 а'ибадырра acquaintance. Ҳаибадырра сейгәырҕьоит. I'm glad to meet you  
@@ -42,7 +42,7 @@ order: 901
 аба' dried (about wet things).  
 абааӡара' get wet  
 аба'р here. Абар амшын. Here (is the) sea.  
-бара' (short form б(а)) you (woman)  
+бара' (short form б(а)) you (a woman)  
 абара' dry out (about wet things).  
 абара' видеть. Лара' илбо'йт. Она видит. Иубои? Что ты (муж) видишь?  
 аба'ҳча сад. Наала ҳба'ҳчаҟны ашәы'р ҿы'лхуеит. Наала рвет фрукты в нашем саду.  
