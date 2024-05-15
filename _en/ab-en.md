@@ -110,7 +110,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 иахьа' /иехьа' / ехьа today  
 иацы' / иецы' /ецы' yesterday  
 иҕәҕәаны' strong, strongly. Аҧша (и)ҕәҕәаны (и)асуеит. The wind is blowing hard.  
-итабу'п than you  
+итабу'п thank you  
 акака'лкра have a snack/a quick bite. Какалк скит. I had a snack.  
 акахуа' coffee  
 а(кры')фара eat. Крысфоит. I am eating.  
@@ -236,7 +236,7 @@ ya' there
 ахаҟны' at the head  
 аха'рџь expenses  
 аха'ҵа man; husband  
-ха'ҵа ацара' get married (of a woman (take a husband))  
+ха'ҵа ацара' get married (of a woman) (take a husband)  
 ахы' head  
 ахы'бра roof; building  
 хы'мҧада certainly  
