@@ -63,7 +63,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 агара' take; lead away; carry away. Иара' (и)иго'ит. He takes. Ибгои? What are you (a woman) taking?  
 а'гхара be late; linger  
 агы'лара stand; get up  
-агьа'ма taste  
+агьа'ма taste, flavor  
 агәабзи'ара health  
 агәы' heart  
 агәы' а'хәара like; glad. Сгәы иахәуеит. I like it; I'm glad  
