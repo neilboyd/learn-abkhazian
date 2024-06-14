@@ -72,7 +72,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 а'ҕәҕәа strong. Иара дыҕәҕәоуп. He is strong.  
 а'дныҳәалара congratulation. Адныҳәалара дапхьеит I read the congratulations.  
 а'дныҳәалара congratulate. Илыдысныҳәалеит. I congratulated her. Ишәыдысныҳәалоит! Congratulations!  
-адҵа' exercise; order. Адҵа' сы'рҭеит. I was given a task.  
+адҵа' exercise; task. Адҵа' сы'рҭеит. I was given a task.  
 дызу'сҭада, who is he/she? бызустада, who is she? узусҭада? who is he?  
 ады'рра know.  
 адәахьы' outside  
@@ -319,7 +319,7 @@ ya' there
 аҽы'ҧсахра change  
 ҽаҩраҭага'лан autumn. Ҽаҩраҭагалан аҵлақәа рыбҕьы каҧсоит. Tree leaves fall off in autumn  
 аҿа'р the youth  
-аҿаҳәара' tie, bind  
+аҿаҳәара' tie, fasten  
 аҿы'хра tear, pick (about fruits, berries)  
 аҿы' in, at  
 аҿыҭра' call (for)  
