@@ -23,7 +23,7 @@ order: 901
 а'(ие)шьа brother. Сашьа Беслан ихьӡуп. My brother's name is Beslan.  
 аиаа'ира victory; аиаа'ира агара' win. Аиаа'ра амш аны'ҳәа. Holiday Victory Day  
 айара' lie, сио'уп I am lying, био'уп you (a woman) are lying  
-а'иасра go over, get over  
+а'иасра cross, get over  
 аиҵабы' younger. Сашьа еиҵбы ихьӡуп Беслан  
 а'ибадырра acquaintance. Ҳаибадырра сейгәырҕьоит. I'm glad to meet you  
 а'ибадырра meet. Шәеибады'р, ари сҩы'за йоуп. Meet my friend.  
@@ -219,7 +219,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 ауаҩы' person  
 аулафахәы' salary  
 ау'с case; matter  
-ау'сумҭа work; creation  
+ау'сумҭа product  
 ау'сурта workplace  
 ау'сура (ау'с аура') (to) work  
 ау'сура work (job)  
