@@ -23,7 +23,7 @@ order: 901
 а'(ие)шьа brother. Сашьа Беслан ихьӡуп. My brother's name is Beslan.  
 аиаа'ира victory; аиаа'ира агара' win. Аиаа'ра амш аны'ҳәа. Holiday Victory Day  
 айара' lie, сио'уп I am lying, био'уп you (a woman) are lying  
-а'иасра go over, get over  
+а'иасра cross, get over  
 аиҵабы' younger. Сашьа еиҵбы ихьӡуп Беслан  
 а'ибадырра acquaintance. Ҳаибадырра сейгәырҕьоит. I'm glad to meet you  
 а'ибадырра meet. Шәеибады'р, ари сҩы'за йоуп. Meet my friend.  
@@ -63,7 +63,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 агара' take; lead away; carry away. Иара' (и)иго'ит. He takes. Ибгои? What are you (a woman) taking?  
 а'гхара be late; linger  
 агы'лара stand; get up  
-агьа'ма taste  
+агьа'ма taste, flavor  
 агәабзи'ара health  
 агәы' heart  
 агәы' а'хәара like; glad. Сгәы иахәуеит. I like it; I'm glad  
@@ -72,7 +72,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 а'ҕәҕәа strong. Иара дыҕәҕәоуп. He is strong.  
 а'дныҳәалара congratulation. Адныҳәалара дапхьеит I read the congratulations.  
 а'дныҳәалара congratulate. Илыдысныҳәалеит. I congratulated her. Ишәыдысныҳәалоит! Congratulations!  
-адҵа' exercise; order. Адҵа' сы'рҭеит. I was given a task.  
+адҵа' exercise; task. Адҵа' сы'рҭеит. I was given a task.  
 дызу'сҭада, who is he/she? бызустада, who is she? узусҭада? who is he?  
 ады'рра know.  
 адәахьы' outside  
@@ -219,7 +219,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 ауаҩы' person  
 аулафахәы' salary  
 ау'с case; matter  
-ау'сумҭа work; creation  
+ау'сумҭа product  
 ау'сурта workplace  
 ау'сура (ау'с аура') (to) work  
 ау'сура work (job)  
@@ -232,7 +232,7 @@ ya' there
 убас' so (like that)  
 уи' а'шьҭахь after that  
 уи' he, she, that, that (demonstrative pronoun)  
-урҭ those  
+урҭ that, those  
 аха' but, however  
 аха'лара get up  
 ахаҟны' at the head  
@@ -319,7 +319,7 @@ ya' there
 аҽы'ҧсахра change  
 ҽаҩраҭага'лан autumn. Ҽаҩраҭагалан аҵлақәа рыбҕьы каҧсоит. Tree leaves fall off in autumn  
 аҿа'р the youth  
-аҿаҳәара' tie, bind  
+аҿаҳәара' tie, fasten  
 аҿы'хра tear, pick (about fruits, berries)  
 аҿы' in, at  
 аҿыҭра' call (for)  

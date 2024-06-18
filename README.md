@@ -23,7 +23,6 @@ English:
 - [ ] lesson 16, 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
-- [ ] English-Abkhazian dictionary
 
 Turkish:
 - [ ] lesson 12, review 4
