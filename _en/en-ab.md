@@ -11,11 +11,9 @@ order: 902
 
 
 a little хәыҷы'к, маҷк  
-Abkhazian language а'ҧсшәа  
-Abkhazian language аҧсуа бызшәа  
+Abkhazian language а'ҧсшәа, аҧсуа бызшәа  
 address аҭыӡҭа'  
-after а'шьҭахь  
-after аҟны'  
+after а'шьҭахь, аҟны'  
 afternoon шьыбжь'ышьҭахь  
 again ҿыц  
 agenda амш азҵаара 
@@ -28,9 +26,7 @@ apple аҵәа'
 April мшаҧы'(мза)  
 artist аса'хьаҭыхҩы  
 ask a question азҵаа'ра а'ҭара  
-ask а'зҵаара  
-ask а'ҳәара  
-at first а'ҧхьа  
+ask а'зҵаара, а'ҳәара  
 at first а'ҧхьа  
 at lunch шьыбжьо'н  
 at the head ахаҟны'  
@@ -46,7 +42,6 @@ be аҟазаара
 beautiful а'ҧшӡа  
 become bad а'цәгьахара  
 become cold а'хьшәа'шәахара  
-behind а'шьҭахь  
 behind а'шьҭахь  
 belong атәы'(заа)ра  
 better аиҕь  
@@ -64,7 +59,6 @@ buy аа'хәара
 call аҿыҭра'  
 calm аҭы'нч  
 car амашьы'на  
-car амашьы'на  
 carry away агара'  
 case; matter ау'с  
 catch up ахьӡара'  
@@ -76,7 +70,6 @@ child ахәыҷы'
 choose а'лхра  
 city а'қалақь  
 clean ары'цқьара  
-clean; cleanse ары'цқьара  
 clean; pure а'цқьа  
 clothers а'маҭәа  
 coffee акаҳуа  
@@ -110,8 +103,7 @@ do аҟаҵара
 doctor аҳақьы'м  
 dog ала'  
 dress (woman's) аҵкы'  
-dress, put on ашәҵара'  
-dress, wear ашәҵара'  
+dress, put on, wear ашәҵара'  
 dried (about wet things) аба'  
 drink а'жǝра  
 dry out (about wet things) абара'  
@@ -133,22 +125,19 @@ flower ашәҭ
 for a while акы'р аамҭа  
 for now... макьа'на  
 for азы'  
-for азы'  
 freeze а'хьҭакра (а'хьҭа акра')  
 freeze аҵа'ара  
 Friday ахәа'ша  
 friend аҩы'за  
 front а'ҧхьа  
 fruits ашәы'р  
-fry аџьра'  
-fry аӡра'  
+fry аџьра', аӡра'  
 garden аба'ҳча  
 garlic аџы'ш  
 get better а'иҕьхара (е'иҕьхара)  
 get lost а'ӡра  
 get married (of a woman) (take a husband) ха'ҵа ацара'  
-get up агы'лара  
-get up аха'лара  
+get up агы'лара, аха'лара  
 get wet абааӡара'  
 get worse (about the weather) а'цәгьахара  
 gify аҳа'мҭа  
@@ -162,20 +151,16 @@ good абзи'а
 goodbye! бзи'ала, абзи'араз!  
 greet а'ҧсшәа аҳәара'  
 happen а'ҟалара  
-happen а'ҟалара  
 have a good trip! а'мҩа бзи'а!  
 have a good trip! мҩа'мш (шәықәлааит)!  
 have a snack акака'лкра  
 have а'мазаара  
 head ахы'  
 health агәабзи'ара  
-hear аҳара  
 hear аҳара'  
 heart агәы'  
 her лара' (short form - ла, д(а))  
-here аба'р  
-here ара' (абра')  
-here ара' (абра')  
+here аба'р, ара' (абра')  
 hide а'ҵәахра  
 him иара' (short form - иа, д(а))
 him, her уи'  
@@ -187,8 +172,7 @@ hurry а'ццакра
 husband аха'ҵа  
 I сара' (short form - с(а))
 in the morning шьыжьла  
-in, at аҟны  
-in, at аҿы'  
+in, at аҟны, аҿы'  
 January ажьырны'ҳәа(мза)  
 judge а'ӡбара  
 July ҧхынгәы'(мза)  
@@ -200,8 +184,7 @@ later нас
 leaf абҕьы'ц  
 learn, teach аҵара'  
 leave (from the room) адәы'лҵра  
-leave а'аныжьры/аны'жьра  
-leave ацара'  
+leave а'аныжьры/аны'жьра, ацара'  
 lie (lie down) аиара'  
 like агәы' а'хәара  
 linger аг'хара  
@@ -230,12 +213,10 @@ name ахьӡ
 near ааигәа  
 neighbour агәы'ла  
 new аҿы'ц  
-no ма'п, мамо'у  
-no ҟаи, мамоу  
+no ма'п, мамо'у, ҟаи  
 not for long ҳамҭак(ы')  
 note азгәа'ҭара  
 November абҵара'(мза)  
-now уажәы'  
 now уажәы'  
 October жьҭаара'(мза)  
 older аиҳабы  
@@ -295,7 +276,6 @@ so уба'с
 somebody аӡәы  
 sometime а'нкьа  
 somewhere џьара'  
-somewhere џьара'  
 sour аҵәыҵәы'  
 stand агы'лара  
 state, nation аҳәынҭқа'рра  
@@ -313,11 +293,8 @@ table а'ишәа
 take away агара'  
 take off (clothes) ашәы'хра  
 take агара'  
-take агара'  
 talk (to each other) а'ицәажәара  
-talk ацәа'жәара  
-talk ацәа'жәара  
-talk аҳәара'  
+talk ацәа'жәара, аҳәара'  
 taste, flavor агьа'ма  
 teacher арҵаҩы'  
 tear, pick (about fruits, berries) аҿы'хра  
@@ -346,12 +323,10 @@ two ҩы'џьа
 vegetables ауҭраҭы'х  
 victory аиаа'ира  
 village ақы'ҭа  
-village ақыҭа  
 wait аҧшра'  
 walk around алеиҩе'ира  
 walk алеиҩе'ира  
 walk аны'ҟәара  
-want аҭахра'  
 want аҭахра'  
 warm аҧха, аҟәа'нда  
 wash (clothes) а'ӡәӡәара  
@@ -371,8 +346,7 @@ winter а'ӡын
 woman аҧҳәы'с  
 wonderful а'замана 
 word а'жәа  
-work ау'сумҭа  
-work ау'сура (ау'с aypa')  
+work ау'сумҭа, ау'сура (ау'с aypa')  
 workplace ау'сурҭа  
 write down анҵара'  
 write аҩра'  
