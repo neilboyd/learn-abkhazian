@@ -232,7 +232,7 @@ ya' there
 убас' so (like that)  
 уи' а'шьҭахь after that  
 уи' he, she, that, that (demonstrative pronoun)  
-урҭ those  
+урҭ that, those  
 аха' but, however  
 аха'лара get up  
 ахаҟны' at the head  
