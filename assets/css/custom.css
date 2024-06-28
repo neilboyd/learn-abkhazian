@@ -19,3 +19,8 @@ a:has(.whatsapp-web) {
     display: unset;
   }
 }
+
+.background-divider {
+  background-image: url(/assets/img/1x1.gif);
+  padding: 0 !important;
+}
