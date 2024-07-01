@@ -24,3 +24,7 @@ a:has(.whatsapp-web) {
   background-image: url(/assets/img/1x1.gif);
   padding: 0 !important;
 }
+
+.background-divider-150 {
+  background-image: url(/assets/img/150x1.gif);
+}
