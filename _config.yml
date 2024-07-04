@@ -187,6 +187,7 @@ defaults:
       type: en
     values:
       lang: en
+      permalink: /en/:title
       layout: lesson
       comments: true
   - scope:
@@ -194,6 +195,7 @@ defaults:
       type: tr
     values:
       lang: tr-TR
+      permalink: /tr/:title
       layout: lesson
       comments: true
   - scope:
@@ -201,6 +203,7 @@ defaults:
       type: ru
     values:
       lang: ru-RU
+      permalink: /ru/:title
       layout: lesson
       comments: true
   - scope:
