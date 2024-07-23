@@ -34,7 +34,7 @@
     json: '{{ search_json | relative_url }}',
     searchResultTemplate: '{{ result_elem | strip_newlines }}',
     noResultsText: '{{ not_found }}',
-    templateMiddleware: function(prop, value, template) {
+    templateMiddleware: function(prop, value, template, query) {
       if (prop === 'categories') {
         if (value === '') {
           return `${value}`;
