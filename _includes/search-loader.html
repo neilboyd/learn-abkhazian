@@ -12,7 +12,7 @@
         {tags}
       </div>
     </header>
-    <p>{snippet}</p>
+    <p>{content}</p>
   </article>
 {% endcapture %}
 
@@ -49,6 +49,24 @@
         } else {
           return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
         }
+      }
+
+      if (prop === 'content') {
+        if (query.startsWith('"') && query.endsWith('"')) {
+          query = query.substring(1, query.length - 1)
+        }
+        let i = value.toLowerCase().indexOf(query.toLowerCase())
+        if (i >= 0) {
+          let j = i + query.length
+          value = value.substring(0, i) + '<b>' + value.substring(i, j) + '</b>' + value.substring(j)
+        }
+        if (i > 100) {
+          value = value.substring(i - 100)
+        }
+        if (value.length > 200) {
+          value = value.substring(0, 200 + query.length)
+        }
+        return value;
       }
     }
   });
