@@ -5,6 +5,8 @@
     // Liquid syntax highlighting and formatting
     "Shopify.theme-check-vscode",
     // Common formatter
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    // Dev Containers
+    "ms-vscode-remote.remote-containers"
   ]
 }
