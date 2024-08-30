@@ -8,3 +8,7 @@ updates:
     - dependency-name: html-proofer
       versions:
       - ">= 5.0" # depends on Ruby 3.1
+  - package-ecosystem: "devcontainers"
+     directory: "/"
+     schedule:
+       interval: weekly
