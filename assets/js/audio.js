@@ -1,5 +1,4 @@
 window.keyListener = function (e) {
-  console.log('key listener', e);
   switch (e.code) {
     case 'ArrowLeft':
       e.preventDefault();
@@ -18,7 +17,7 @@ window.keyListener = function (e) {
     case 'Space':
       e.preventDefault();
       for (const audio of document.getElementsByTagName('audio')) {
-        if (audio.currentTime) {
+        if (audio.currentTime && !audio.ended) {
           if (audio.paused) {
             audio.play();
           } else {
@@ -57,13 +56,11 @@ const startPlayAudio = function (el) {
 };
 
 const pauseAudio = function (el) {
-  console.log('pause');
   el.classList.remove('fa-volume-high');
   el.classList.add('fa-pause');
 };
 
 const endPlayAudio = function (el) {
-  console.log('end');
   el.classList.remove('fa-volume-high');
   el.classList.remove('fa-pause');
   el.classList.remove('text-info');
