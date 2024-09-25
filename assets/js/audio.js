@@ -35,6 +35,10 @@ const playAudio = function (el) {
   const audio = el.getElementsByTagName('audio')[0];
   if (audio.currentTime) {
     if (audio.paused) {
+      // first stop others
+      for (const audio of document.getElementsByTagName('audio')) {
+        audio.pause();
+      }
       audio.play();
     } else {
       audio.pause();
