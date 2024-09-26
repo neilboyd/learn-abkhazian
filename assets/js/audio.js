@@ -16,15 +16,17 @@ window.keyListener = function (e) {
       break;
     case 'Space':
       e.preventDefault();
+      let firstPaused = null;
       for (const audio of document.getElementsByTagName('audio')) {
         if (audio.currentTime && !audio.ended) {
           if (audio.paused) {
-            audio.play();
+            firstPaused ||= audio;
           } else {
             audio.pause();
           }
         }
       }
+      firstPaused?.play();
       break;
   }
 };
@@ -35,43 +37,48 @@ const playAudio = function (el) {
   const audio = el.getElementsByTagName('audio')[0];
   if (audio.currentTime) {
     if (audio.paused) {
-      // first stop others
-      for (const audio of document.getElementsByTagName('audio')) {
-        audio.pause();
-      }
+      stopAll();
       audio.play();
     } else {
       audio.pause();
     }
   } else {
-    audio.addEventListener('play', () => startPlayAudio(el));
-    audio.addEventListener('pause', () => pauseAudio(el));
-    audio.addEventListener('ended', () => endPlayAudio(el));
-    audio.onerror = () => errorPlayAudio(el);
+    audio.addEventListener('play', () => onStartPlayAudio(el));
+    audio.addEventListener('pause', () => onPauseAudio(el));
+    audio.addEventListener('ended', () => onEndPlayAudio(el));
+    audio.onerror = () => onErrorPlayAudio(el);
+    stopAll();
     audio.play();
   }
 };
 
-const startPlayAudio = function (el) {
+const stopAll = function () {
+  // stop all audio before starting
+  for (const audio of document.getElementsByTagName('audio')) {
+    audio.pause();
+  }
+};
+
+const onStartPlayAudio = function (el) {
   el.classList.remove('fa-volume-low');
   el.classList.remove('fa-pause');
   el.classList.add('fa-volume-high');
   el.classList.add('text-info');
 };
 
-const pauseAudio = function (el) {
+const onPauseAudio = function (el) {
   el.classList.remove('fa-volume-high');
   el.classList.add('fa-pause');
 };
 
-const endPlayAudio = function (el) {
+const onEndPlayAudio = function (el) {
   el.classList.remove('fa-volume-high');
   el.classList.remove('fa-pause');
   el.classList.remove('text-info');
   el.classList.add('fa-volume-low');
 };
 
-const errorPlayAudio = function (el) {
+const onErrorPlayAudio = function (el) {
   el.classList.remove('fa-volume-high');
   el.classList.remove('text-info');
   el.classList.add('fa-volume-xmark');
