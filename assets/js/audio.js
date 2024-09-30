@@ -5,19 +5,14 @@ const audioModule = (function () {
     switch (e.code) {
       case 'ArrowLeft':
         e.preventDefault();
-        for (const audio of document.getElementsByTagName('audio')) {
-          audio.currentTime = Math.max(0, audio.currentTime - 10);
+        if (lastPlayed?.currentTime && !lastPlayed.paused) {
+          lastPlayed.currentTime -= 10;
         }
         break;
       case 'ArrowRight':
         e.preventDefault();
-        for (const audio of document.getElementsByTagName('audio')) {
-          if (audio.currentTime) {
-            audio.currentTime = Math.min(
-              audio.duration,
-              audio.currentTime + 10
-            );
-          }
+        if (lastPlayed?.currentTime && !lastPlayed.paused) {
+          lastPlayed.currentTime += 10;
         }
         break;
       case 'Space':
