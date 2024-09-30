@@ -35,9 +35,7 @@ const audioModule = (function () {
     const audio = el.getElementsByTagName('audio')[0];
     if (audio.currentTime) {
       if (audio.paused) {
-        stopAll();
-        audio.play();
-        lastPlayed = audio;
+        playThisOne(audio);
       } else {
         audio.pause();
       }
@@ -46,16 +44,16 @@ const audioModule = (function () {
       audio.addEventListener('pause', () => onPauseAudio(el));
       audio.addEventListener('ended', () => onEndPlayAudio(el));
       audio.onerror = () => onErrorPlayAudio(el);
-      stopAll();
-      audio.play();
-      lastPlayed = audio;
+      playThisOne(audio);
     }
   };
 
-  const stopAll = function () {
+  const playThisOne = function (thisAudio) {
     for (const audio of document.getElementsByTagName('audio')) {
       audio.pause();
     }
+    thisAudio.play();
+    lastPlayed = thisAudio;
   };
 
   const onStartPlayAudio = function (el) {
