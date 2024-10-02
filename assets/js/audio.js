@@ -84,6 +84,11 @@ const audioModule = (function () {
 
   window.addEventListener('keydown', keyListener);
 
+  let tooltip = document.currentScript.dataset.tooltip;
+  for (const audio of document.getElementsByClassName('audio')) {
+    audio.setAttribute('title', tooltip);
+  }
+
   return {
     playAudio,
   };
