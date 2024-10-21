@@ -12,7 +12,8 @@ The preferred method is with a
 [GitHub Pull Request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
 But if that's too technical, contributions in any form are welcome.
 
-To run locally:  
+## To run locally
+
 Clone repo, and then clone submodules:
 ```bash
 git submodule init
@@ -22,8 +23,12 @@ Then run with
 ```bash
 bundle exec jekyll serve
 ```
+There is also a
+[`devcontainer.json`](.devcontainer/devcontainer.json)
+file for development in
+[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
 
-TODO:
+## TODO
 
 Russian:
 - [ ] lesson 16, 17, 18, review 6
