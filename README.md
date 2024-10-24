@@ -5,14 +5,30 @@ This site is a tutorial to learn Abkhazian language.
 The site is built using
 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.1.1)
 theme for
-[Jekyl](https://jekyllrb.com/).
+[Jekyll](https://jekyllrb.com/).
 
 Contributions are welcome.
 The preferred method is with a
 [GitHub Pull Request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
 But if that's too technical, contributions in any form are welcome.
 
-TODO:
+## To run locally
+
+Clone repo, and then clone submodules:
+```bash
+git submodule init
+git submodule update
+```
+Then run with
+```bash
+bundle exec jekyll serve
+```
+There is also a
+[`devcontainer.json`](.devcontainer/devcontainer.json)
+file for development in
+[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
+
+## TODO
 
 Russian:
 - [ ] lesson 16, 17, 18, review 6
