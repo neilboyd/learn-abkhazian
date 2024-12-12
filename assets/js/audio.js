@@ -4,19 +4,16 @@ const audioModule = (function () {
   const keyListener = function (e) {
     switch (e.code) {
       case 'ArrowLeft':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime -= 10;
         }
         break;
       case 'ArrowRight':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime += 10;
         }
         break;
       case 'Space':
-        e.preventDefault();
         let allPaused = true;
         for (const audio of document.getElementsByTagName('audio')) {
           if (!audio.paused) {
