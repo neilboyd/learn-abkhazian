@@ -4,28 +4,29 @@ const audioModule = (function () {
   const keyListener = function (e) {
     switch (e.code) {
       case 'ArrowLeft':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime -= 10;
+          e.preventDefault();
         }
         break;
       case 'ArrowRight':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime += 10;
+          e.preventDefault();
         }
         break;
       case 'Space':
-        e.preventDefault();
         let allPaused = true;
         for (const audio of document.getElementsByTagName('audio')) {
           if (!audio.paused) {
             allPaused = false;
             audio.pause();
+            e.preventDefault();
           }
         }
         if (allPaused && lastPlayed) {
           lastPlayed.play();
+          e.preventDefault();
         }
         break;
     }
@@ -82,9 +83,7 @@ const audioModule = (function () {
     el.classList.add('text-danger');
   };
 
-  for (const audio of document.getElementsByTagName('audio')) {
-    audio.addEventListener('keydown', keyListener);
-  }
+  window.addEventListener('keydown', keyListener);
 
   let tooltip = document.currentScript.dataset.tooltip;
   for (const audio of document.getElementsByClassName('audio')) {
