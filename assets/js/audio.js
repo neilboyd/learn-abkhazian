@@ -1,9 +1,8 @@
 const audioModule = (function () {
   let lastPlayed = null;
-  let inputFocussed = false;
 
   const keyListener = function (e) {
-    if (inputFocussed) {
+    if (document.activeElement.tagName === 'INPUT') {
       return;
     }
 
@@ -79,6 +78,7 @@ const audioModule = (function () {
     el.classList.remove('fa-pause');
     el.classList.remove('text-info');
     el.classList.add('fa-volume-low');
+    lastPlayed = null;
   };
 
   const onErrorPlayAudio = function (el) {
@@ -93,11 +93,6 @@ const audioModule = (function () {
   let tooltip = document.currentScript.dataset.tooltip;
   for (const audio of document.getElementsByClassName('audio')) {
     audio.setAttribute('title', tooltip);
-  }
-
-  for (const input of document.getElementsByTagName('input')) {
-    input.addEventListener('focus', () => (inputFocussed = true));
-    input.addEventListener('blur', () => (inputFocussed = false));
   }
 
   return {
