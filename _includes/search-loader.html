@@ -27,7 +27,8 @@
 {% endif %}
 
 <script>
-  /* Note: dependent library will be loaded in `js-selector.html` */
+/* Note: dependent library will be loaded in `js-selector.html` */
+document.addEventListener('DOMContentLoaded', () => {
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
@@ -70,4 +71,5 @@
       }
     }
   });
+});
 </script>
