@@ -1,7 +1,12 @@
 const audioModule = (function () {
   let lastPlayed = null;
+  let inputFocussed = false;
 
   const keyListener = function (e) {
+    if (inputFocussed) {
+      return;
+    }
+
     switch (e.code) {
       case 'ArrowLeft':
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
@@ -88,6 +93,11 @@ const audioModule = (function () {
   let tooltip = document.currentScript.dataset.tooltip;
   for (const audio of document.getElementsByClassName('audio')) {
     audio.setAttribute('title', tooltip);
+  }
+
+  for (const input of document.getElementsByTagName('input')) {
+    input.addEventListener('focus', () => (inputFocussed = true));
+    input.addEventListener('blur', () => (inputFocussed = false));
   }
 
   return {
