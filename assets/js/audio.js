@@ -2,30 +2,35 @@ const audioModule = (function () {
   let lastPlayed = null;
 
   const keyListener = function (e) {
+    if (document.activeElement.tagName === 'INPUT') {
+      return;
+    }
+
     switch (e.code) {
       case 'ArrowLeft':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime -= 10;
+          e.preventDefault();
         }
         break;
       case 'ArrowRight':
-        e.preventDefault();
         if (lastPlayed?.currentTime && !lastPlayed.paused) {
           lastPlayed.currentTime += 10;
+          e.preventDefault();
         }
         break;
       case 'Space':
-        e.preventDefault();
         let allPaused = true;
         for (const audio of document.getElementsByTagName('audio')) {
           if (!audio.paused) {
             allPaused = false;
             audio.pause();
+            e.preventDefault();
           }
         }
         if (allPaused && lastPlayed) {
           lastPlayed.play();
+          e.preventDefault();
         }
         break;
     }
@@ -73,6 +78,7 @@ const audioModule = (function () {
     el.classList.remove('fa-pause');
     el.classList.remove('text-info');
     el.classList.add('fa-volume-low');
+    lastPlayed = null;
   };
 
   const onErrorPlayAudio = function (el) {
