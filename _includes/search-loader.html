@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     json: '{{ search_json | relative_url }}',
     searchResultTemplate: '{{ result_elem | strip_newlines }}',
     templateMiddleware: searchMiddlewareModule.templateMiddleware,
-    noResultsText: '{{ not_found }}'
+    noResultsText: '{{ not_found }}',
+    exclude: ['site.data']
   });
 });
 </script>
