@@ -18,7 +18,7 @@ but I couldn't find a condition that works
       "tags": {{ post.tags | join: ', ' | jsonify }},
       "date": "{{ post.date }}",
       {%- include no-linenos.html content=post.content -%}
-      {%- assign _content = content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: ' ', ' ' -%}
+      {%- assign _content = content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' -%}
       "snippet": {{ _content | truncate: 200 | jsonify }},
       "content": {{ _content | jsonify }}
     },
