@@ -36,8 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     resultsContainer: document.getElementById('search-results'),
     json: '{{ search_json | relative_url }}',
     searchResultTemplate: '{{ result_elem | strip_newlines }}',
+    templateMiddleware: searchMiddlewareModule.templateMiddleware,
     noResultsText: '{{ not_found }}',
-    templateMiddleware: searchMiddlewareModule.templateMiddleware
+    exclude: ['site.data']
   });
 });
 </script>
