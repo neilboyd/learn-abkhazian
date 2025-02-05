@@ -30,8 +30,22 @@ file for development in
 
 ## Cypress integration tests
 
+To run the Cypress interactive window:
 ```
 npm run cy:open
+```
+or
+```
+npx cypress open
+```
+
+To run the Cypress tests:
+```
+npm run cy:run
+```
+or
+```
+npx cypress run
 ```
 
 ## TODO
