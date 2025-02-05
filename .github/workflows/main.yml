@@ -1,0 +1,33 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches:
+      - main
+      - cypress
+
+  workflow_dispatch:
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: npm install
+        run: npm install
+
+      - name: Start server for tests
+        run: bundle exec jekyll serve --detach
+
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6
