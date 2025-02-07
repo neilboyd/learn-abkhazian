@@ -31,3 +31,9 @@ jobs:
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
+        with:
+          config: baseUrl=http://localhost:4000
+          # for now just run my tests and one of the examples
+          spec: |
+            cypress/e2e/home.cy.js
+            cypress/e2e/2-advanced-examples/assertions.cy.js
