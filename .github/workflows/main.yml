@@ -35,5 +35,5 @@ jobs:
           config: baseUrl=http://localhost:4000
           # for now just run my tests and one of the examples
           spec: |
-            cypress/e2e/1-home-page/home.cy.js
+            cypress/e2e/1-home/*.cy.js
             cypress/e2e/2-advanced-examples/assertions.cy.js
