@@ -28,6 +28,18 @@ There is also a
 file for development in
 [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
 
+## Cypress integration tests
+
+To run the Cypress interactive window:
+```
+npm run cy:open
+```
+
+To run the Cypress tests:
+```
+npm run cy:run
+```
+
 ## TODO
 
 Russian:
