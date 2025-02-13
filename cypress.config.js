@@ -1,5 +1,5 @@
 module.exports = {
   e2e: {
-    baseUrl: 'https://www.learn-abkhazian.com/',
+    baseUrl: 'https://deploy-preview-84--learnabkhazian.netlify.app/',
   },
 };
