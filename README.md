@@ -12,34 +12,6 @@ The preferred method is with a
 [GitHub Pull Request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
 But if that's too technical, contributions in any form are welcome.
 
-## To run locally
-
-Clone repo, and then clone submodules:
-```bash
-git submodule init
-git submodule update
-```
-Then run with
-```bash
-bundle exec jekyll serve
-```
-There is also a
-[`devcontainer.json`](.devcontainer/devcontainer.json)
-file for development in
-[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
-
-## Cypress integration tests
-
-To run the Cypress interactive window:
-```
-npm run cy:open
-```
-
-To run the Cypress tests:
-```
-npm run cy:run
-```
-
 ## TODO
 
 Russian:
@@ -60,3 +32,34 @@ Turkish:
 - [ ] additional material
 - [ ] Abkhazian-Turkish dictionary
 - [ ] Turkish-Abkhazian dictionary
+
+## To run locally
+
+Clone repo, and then clone submodules:
+```bash
+git submodule init
+git submodule update
+```
+Then run with
+```bash
+bundle exec jekyll serve
+```
+There is also a
+[`devcontainer.json`](.devcontainer/devcontainer.json)
+file for development in
+[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
+
+## Cypress integration tests
+
+To run the
+[Cypress App](https://docs.cypress.io/app/get-started/open-the-app)
+:
+```
+npm run cy:open
+```
+NB: the app only works on the host machine - not on a VM or in a dev container.
+
+To run the Cypress tests:
+```
+npm run cy:run
+```
