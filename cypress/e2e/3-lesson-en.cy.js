@@ -25,8 +25,6 @@ context('Lesson EN Page', () => {
 
   it('Has comments section', () => {
     cy.get('footer').scrollIntoView();
-    cy.get('section#conversation', { timeout: 10_000 })
-      .contains('Start the discussion')
-      .should('have.text', 'Start the discussion…');
+    cy.get('div#disqus_thread iframe').should('have.attr', 'title', 'Disqus');
   });
 });
