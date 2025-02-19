@@ -21,3 +21,4 @@ package-lock.json
 # Misc
 assets/js/dist
 book
+cypress/screenshots

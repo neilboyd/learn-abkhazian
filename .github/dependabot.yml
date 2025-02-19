@@ -1,14 +1,18 @@
 version: 2
 updates:
-  - package-ecosystem: "bundler"
-    directory: "/"
+  - package-ecosystem: bundler
+    directory: /
     schedule:
-      interval: "weekly"
+      interval: weekly
     ignore:
-    - dependency-name: html-proofer
-      versions:
-      - ">= 5.0" # depends on Ruby 3.1
-  - package-ecosystem: "devcontainers"
-     directory: "/"
-     schedule:
-       interval: weekly
+      - dependency-name: html-proofer
+        versions:
+          - ">= 5.0" # depends on Ruby 3.1
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: devcontainers
+    directory: /
+    schedule:
+      interval: weekly
