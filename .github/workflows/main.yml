@@ -34,12 +34,6 @@ jobs:
         with:
           wait-on: "http://localhost:4000"
           config: baseUrl=http://localhost:4000
-
-      - name: Run Cypress tests on Cypress Cloud
-        uses: cypress-io/github-action@v6
-        with:
-          wait-on: "http://localhost:4000"
-          config: baseUrl=http://localhost:4000
           record: true
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
