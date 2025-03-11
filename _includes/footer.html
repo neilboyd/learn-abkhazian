@@ -46,4 +46,7 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+
+  <p>This site is open source. {% raw %}{% github_edit_link "Improve this page" %}{% endraw %}</p>
+  
 </footer>
