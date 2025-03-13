@@ -48,7 +48,8 @@
   </p>
 
   <p>
-    This site is open source. {% github_edit_link "Improve this page." %}
+    {% capture edit_link %}{% github_edit_link %}{% endcapture %}
+    This site is open source. <a href="{{ edit_link | replace: 'gh-pages', 'main' }}">Improve this page</a>.
     <span class="sha">{{ site.github.build_revision | truncate: 7, '' }}</span>
   </p>
 
