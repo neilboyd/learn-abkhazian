@@ -3,13 +3,14 @@
 This site is a tutorial to learn Abkhazian language.
 
 The site is built using
-[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.1.1)
+[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.2)
 theme for
 [Jekyll](https://jekyllrb.com/).
 
 Contributions are welcome.
 The preferred method is with a
 [GitHub Pull Request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project).
+At the bottom of every page is a link to edit the page.
 But if that's too technical, contributions in any form are welcome.
 
 ## TODO
