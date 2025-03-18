@@ -33,8 +33,17 @@ script_includes:
   {% endif %}
 
   <div class="post-tail-wrapper text-muted">
-    <div class="post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2">
+    <div class="post-tail-bottom d-flex align-items-center mt-5 pb-2">
       {% include post-sharing.html lang=lang %}
+
+      <div class="share-wrapper edit-wrapper d-flex align-items-center">
+        <span class="share-label text-muted">{{ site.data.locales[lang].post.edit }}</span>
+        <span class="share-icons">
+          <a href="https://github.com/neilboyd/learn-abkhazian/edit/main/{{ page.path }}" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
+      </div>
     </div>
   </div>
 
