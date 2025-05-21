@@ -11,7 +11,7 @@ swcache: true
       "url": {{ post.url | relative_url | jsonify }},
       "categories": {{ post.categories | join: ', ' | jsonify }},
       "tags": {{ post.tags | join: ', ' | jsonify }},
-      "date": "{{ post.date }}",
+      "date": {{ post.date  | jsonify }},
       "content": {{ post.content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | jsonify }}
       },
     {% endfor %}
