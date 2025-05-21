@@ -17,7 +17,7 @@ but I couldn't find a condition that works
       "categories": {{ post.categories | join: ', ' | jsonify }},
       "tags": {{ post.tags | join: ', ' | jsonify }},
       "date": {{ post.date  | jsonify }},
-      "content": {{ post.content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | jsonify }}
+      "content": {{ post.content | strip_html | newline_to_br | replace: '<br />', ' ' | strip_newlines | split: ' ' | join: ' ' | jsonify }}
     },
     {% endif %}
   {%- endfor -%}
