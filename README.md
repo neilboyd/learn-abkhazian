@@ -3,7 +3,7 @@
 This site is a tutorial to learn Abkhazian language.
 
 The site is built using
-[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.2.4)
+[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.3.0)
 theme for
 [Jekyll](https://jekyllrb.com/).
 
