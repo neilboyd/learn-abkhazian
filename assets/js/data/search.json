@@ -17,9 +17,7 @@ but I couldn't find a condition that works
       "categories": {{ post.categories | join: ', ' | jsonify }},
       "tags": {{ post.tags | join: ', ' | jsonify }},
       "date": "{{ post.date }}",
-      {%- include no-linenos.html content=post.content -%}
-      {%- assign _content = content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' -%}
-      "content": {{ _content | jsonify }}
+      "content": {{ post.content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '  ', ' ' | jsonify }}
     },
     {% endif %}
   {%- endfor -%}
