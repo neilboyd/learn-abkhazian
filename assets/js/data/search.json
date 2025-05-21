@@ -14,8 +14,6 @@ but I couldn't find a condition that works
       "lang": {{ post.lang | jsonify }},
       "title": {{ post.title | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
-      "categories": {{ post.categories | join: ', ' | jsonify }},
-      "tags": {{ post.tags | join: ', ' | jsonify }},
       "date": {{ post.date  | jsonify }},
       "content": {{ post.content | strip_html | newline_to_br | replace: '<br />', ' ' | strip_newlines | split: ' ' | join: ' ' | jsonify }}
     },
