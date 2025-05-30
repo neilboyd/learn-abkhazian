@@ -3,7 +3,7 @@
 This site is a tutorial to learn Abkhazian language.
 
 The site is built using
-[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.2.4)
+[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/tree/v7.3.0)
 theme for
 [Jekyll](https://jekyllrb.com/).
 
@@ -16,7 +16,7 @@ But if that's too technical, contributions in any form are welcome.
 ## TODO
 
 Russian:
-- [ ] lesson 16, 17, 18, review 6
+- [ ] lesson 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
 
