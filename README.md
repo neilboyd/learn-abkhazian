@@ -16,7 +16,7 @@ But if that's too technical, contributions in any form are welcome.
 ## TODO
 
 Russian:
-- [ ] lesson 17, 18, review 6
+- [ ] lesson 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
 
