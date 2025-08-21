@@ -1,0 +1,6 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "html.autoClosingTags": false
+}
