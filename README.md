@@ -20,7 +20,7 @@ Russian:
 - [ ] additional material
 
 English:
-- [ ] lesson 17, 18, review 6
+- [x] lesson 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
 
