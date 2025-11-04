@@ -24,8 +24,6 @@ English:
 - [ ] additional material
 
 Turkish:
-- [x] lesson 12
-- [ ] review 4
 - [ ] lesson 13, 14, 15, review 5
 - [ ] lesson 16, 17, 18, review 6
 - [ ] lesson 19, 20, 21, 22, review 7
