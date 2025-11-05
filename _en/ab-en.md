@@ -77,7 +77,7 @@ literally: yes see you good! Бзиа(ра) уба'аит! Return greeting (addr
 ады'рра know.  
 адәахьы' outside  
 адәқьа'н shop. Ҳаҩны аҧхьа адәқьан гылоуп. In front of our house is a store.  
-адаы' field. Ари адәы дууп, ииаҵǝоуп. This field is big and green.  
+адәы' field. Ари адәы дууп, ииаҵǝоуп. This field is big and green.  
 адәы'ҕба train. Адәыҕба ааит. The train has arrived.  
 адәы'қәлара depart. Адәыгба дәықәлоит. The train is departing.  
 адәы'лҵра leave (from the room)  
@@ -324,7 +324,7 @@ ya' there
 аҿы' in, at  
 аҿыҭра' call (for)  
 аҿы'ц new. Иахьа' ашәҟәы' ҿыц сзаа'рхәеит. Today they bought me a new book.  
-ęыц again. Сара ҿыц аҽазы'ҟаҵара са'лагеит. I started getting ready again  
+ҿыц again. Сара ҿыц аҽазы'ҟаҵара са'лагеит. I started getting ready again  
 аџы'ш garlic  
 џьара' somewhere. Џьара иҟоуп it's somewhere; џьара ицеит let's go somewhere  
 аџьармы'ка market; fair  
