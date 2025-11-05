@@ -75,7 +75,7 @@ kelime anlamı: evet sana iyilik görmek! Бзиа(ра) уба'аит! Karşıl
 ады'рра bilmek.  
 адәахьы' dışarı, dışarıda, dışarıya  
 адәқьа'н mağaza. Ҳаҩны аҧхьа адәқьан гылоуп. Evimizin önünde mağaza var.  
-адаы' tarla. Ари адәы дууп, ииаҵǝоуп. Bu tarla büyük, yeşil.  
+адәы' tarla. Ари адәы дууп, ииаҵǝоуп. Bu tarla büyük, yeşil.  
 адәы'ҕба tren. Адәыҕба ааит. Tren geldi.  
 адәы'қәлара yola çıkmak. Адәыгба дәықәлоит. Tren hareket ediyor.  
 адәы'лҵра çıkmak (binadan)  
@@ -312,7 +312,7 @@ ya' orada
 ашәы'р meyveler  
 ашәы'хра çıkarmak (giysi), Наа'ла лыҵкы' ҟаҧшь лшәы'лхит. Naala kırmızı elbisesini çıkardı.  
 аҽа'ршьцылара egzersiz. Ари аҽаршьцылара аҟацара цәгьоуп. Bu egzersizi yapmak zor.  
-аҽа'ршьцылара egzersiz yapmak. Capa cҽaсы'ршьцылоит Egzersiz yapıyorum.  
+аҽа'ршьцылара egzersiz yapmak. Сара сҽасы'ршьцылоит Egzersiz yapıyorum.  
 аҽы'-\ аҽа'- dönüşlü parçacık (а'цәахра saklamak аҽы'ҵәахра saklanmak) азыҟаҵара hazırlamak (bir şeye) аҽазы'ҟаҵара hazırlanmak (bir şeye)  
 аҽы'ҧсахра değişmek  
 ҽаҩраҭага'лан sonbahar. Ҽаҩраҭагалан аҵлақәа рыбҕьы каҧсоит. Sonbaharda ağaç yaprakları dökülür  
@@ -322,7 +322,7 @@ ya' orada
 аҿы' içinde  
 аҿыҭра' çağırmak  
 аҿы'ц yeni. Иахьа' ашәҟәы' ҿыц сзаа'рхәеит. Bugün bana yeni kitap aldılar.  
-ęыц yeniden. Сара ҿыц аҽазы'ҟаҵара са'лагеит. Yeniden hazırlanmaya başladım  
+ҿыц yeniden. Сара ҿыц аҽазы'ҟаҵара са'лагеит. Yeniden hazırlanmaya başladım  
 аџы'ш sarımsak  
 џьара' bir yerde; bir yere. Џьара иҟоуп bir yerde var; џьара ицеит bir yere gittiler  
 аџьармы'ка pazar; panayır  
