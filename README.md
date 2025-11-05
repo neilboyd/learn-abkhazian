@@ -26,8 +26,6 @@ English:
 Turkish:
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
-- [x] Abkhazian-Turkish dictionary
-- [ ] Turkish-Abkhazian dictionary
 
 ## To run locally
 
