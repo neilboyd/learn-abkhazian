@@ -3,11 +3,9 @@ title: English-Abkhazian dictionary
 order: 902
 ---
 
-<!-- TODO English Abkhazian dictonary in Abkhazian
 <dl>
-  <dt>Аурыс - аҧсуа жәар</dt>
+  <dt>Англыз - аҧсуа жәар</dt>
 </dl>
--->
 
 
 a little хәыҷы'к, маҷк  

@@ -3,11 +3,9 @@ title: Abkhazian-English dictionary
 order: 901
 ---
 
-<!-- TODO Abkhazian English dictonary in Abkhazian
 <dl>
-  <dt>Аҧсуа - аурыс жәар</dt>
+  <dt>Аҧсуа - англыз жәар</dt>
 </dl>
--->
 
 аагара', иаага' bring (here)  
 аа'и (аие'и) yes  
