@@ -4,7 +4,7 @@ order: 901
 ---
 
 <dl>
-  <dt>Аҧсуа - аурыс жәар</dt>
+  <dt>Аҧсуа - атырқәуа жәар</dt>
 </dl>
 
 аагара' getirmek, (buraya) getirmek, иаага' getir (buraya)  
