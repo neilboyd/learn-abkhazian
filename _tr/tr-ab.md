@@ -296,10 +296,10 @@ Suhum А'ҟәа
 şaşırmak аџьашьа'ра  
 şehir а'қалақь  
 şimdi уажәы'  
-Şubat жәабра'нmza  
+Şubat жәабра'(mza)  
 tanışma а'ибадырра  
 tanışmak а'ибадырра  
-tarla адәЫ  
+tarla адәы  
 tartışmak а'илацәажәара  
 tat агьа'ма  
 tebrik а'дныҳәалара  
