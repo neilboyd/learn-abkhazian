@@ -26,7 +26,7 @@ jobs:
         run: bundle exec jekyll serve --detach
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           wait-on: "http://localhost:4000"
           config: baseUrl=http://localhost:4000
