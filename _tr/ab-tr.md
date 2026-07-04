@@ -283,7 +283,7 @@ ya' orada
 аҵа'ара donmak  
 аҵа'ра öğrenmek  
 аҵа'ра öğrenim  
-ацаҩы' öğrenci  
+аҵаҩы' öğrenci  
 аҵкы' elbise (kadın)  
 а'ҵла ağaç  
 а'ҵра geçmek (zaman hakkında)  

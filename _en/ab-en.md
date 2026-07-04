@@ -283,7 +283,7 @@ ya' there
 аҵа'ара freeze  
 аҵа'ра learn; teach  
 аҵа'ра studies  
-ацаҩы' student  
+аҵаҩы' student  
 аҵкы' dress (woman's)  
 а'ҵла tree  
 а'ҵра pass (about time)  
