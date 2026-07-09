@@ -1,9 +1,7 @@
 {
   "recommendations": [
-    "killalau.vscode-liquid-snippets",
     "Shopify.theme-check-vscode",
     "esbenp.prettier-vscode",
-    "ms-vscode-remote.remote-containers",
-    "tnrich.vscode-extension-open-cypress"
+    "ms-vscode-remote.remote-containers"
   ]
 }
