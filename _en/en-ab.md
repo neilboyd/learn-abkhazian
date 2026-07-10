@@ -45,7 +45,7 @@ belong атәы́(заа)ра
 better аиҕь  
 bind аҿаҳәара  
 birthday а́мшира  
-blow (about the wind) аҧша́ a'cpa  
+blow (about the wind) аҧша́ а́сра  
 book ашәҟәы́  
 boy а́ҷкәын  
 bread ача́  
@@ -74,7 +74,7 @@ coffee акаҳуа
 cold а́хьшәашәа  
 coldness а́хьҭа  
 come (there) ане́ира  
-come; arrive ааpa'  
+come; arrive аара́  
 conduct; spend (time) а́мҩаҧгара  
 congratulate а́дныҳәалара  
 congratulation а́дныҳәалара  
@@ -344,7 +344,7 @@ winter а́ӡын
 woman аҧҳәы́с  
 wonderful а́замана 
 word а́жәа  
-work ау́сумҭа, ау́сура (ау́с aypa')  
+work ау́сумҭа, ау́сура (ау́с аура́)  
 workplace ау́сурҭа  
 write down анҵара́  
 write аҩра́  

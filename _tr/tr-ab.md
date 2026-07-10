@@ -48,7 +48,7 @@ bitirmek а́лгара
 biz ҳара́ (kısa form ҳ(а)-)  
 bırakmak а́аныжьры/аны́жьра  
 bulmak а́ҧшаара  
-bu абри́ (ari')  
+bu абри́ (ари́)  
 bu, bunlar арҭ  
 bugün иахьа́ /ехьа  
 burada ара́ (абра́)  
@@ -62,7 +62,7 @@ Cuma ахәа́ша
 cevap vermek а́ҳәара  
 Çarşamba а́хаша  
 çağırmak аҿыҭра́  
-çalışmak ау́сура (ау́с aypa')  
+çalışmak ау́сура (ау́с аура́)  
 çatı ахы́бра  
 çiçek ашәҭ  
 çocuk ахәыҷы́  
@@ -111,7 +111,7 @@ fiyat ахә
 geç kalmak а́гхара  
 geçmek а́иасра  
 geçmek (zaman hakkında) аҵра́  
-gelmek ааpa'  
+gelmek аара́  
 getirmek аагара́  
 girmek (binaya) аҩна́лара  
 girmek аҭа́лара  
@@ -316,7 +316,7 @@ usta ауасҭа́
 uzun olmayan ҳа́мҭак  
 uğurlamak а́наскьагара  
 uyumak а́цәара  
-varmak ааpa'  
+varmak аара́  
 vermek а́ҭara  
 yakalamak ахьӡара́  
 yakında ааигәа́  
