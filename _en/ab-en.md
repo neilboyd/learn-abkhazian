@@ -33,7 +33,7 @@ order: 901
 а́имаа shoes  
 а́иҧшра be like. Сара́ дсе́иҧшуп. He is like me.  
 а́ихагыла floor (storey of building)  
-аиҳабы older. Сашьа еиҳабы ихьӡуп Дамеи. My older brother's name is Damei.  
+аиҳабы́ older. Сашьа еиҳабы ихьӡуп Дамеи. My older brother's name is Damei.  
 а́ицәажәара talk (to each other); agree  
 а́ишәа table; аишәа архиара set the table; аишәа ахатәара sit down at the table  
 ан mother  
@@ -176,7 +176,7 @@ literally: yes see you good! Бзиа(ра) уба́аит! Return greeting (add
 а́ҧсшәа аҳәара greet  
 аҧха́ warm  
 ҧхынҷкәы́н(мза) December  
-ҧхынгәы(мза) July  
+ҧхынгәы́(мза) July  
 а́ҧхьа in front, first; at first.  
 а́ҧхьаӡара count  
 а́ҧхьара read  
@@ -222,7 +222,7 @@ literally: yes see you good! Бзиа(ра) уба́аит! Return greeting (add
 ау́сура (ау́с аура́) (to) work  
 ау́сура work (job)  
 ауҭраҭы́х vegetables  
-ya' there  
+yа́ there  
 уажәы́ now  
 уара́ (short form - y(a) you (a man)  
 уахь there  
@@ -252,7 +252,7 @@ ya' there
 хәажәкы́ра(мза) March  
 а́хәша oil  
 хәыҷы́к a little (synonym маҷк)  
-ахәыҷы child; small  
+ахәыҷы́ child; small  
 ҳа́мҭак not long, a little time  
 ҳара́ we (first person plural pronoun), short form ҳ(а)-)  
 а́ҳаҭыр respect  
@@ -260,7 +260,7 @@ ya' there
 аҳақьы́м doctor  
 аҳа́бла village  
 а́ҳалал kind  
-аҳамҭа present  
+аҳа́мҭа present  
 аҳара́ hear  
 аҳа́уа air; climate  
 а́ҳәара ask  
@@ -278,7 +278,7 @@ ya' there
 ацәқәырҧара́ surge (about the sea)  
 цәамҭха́а шәоуааит (уоуааит, боуааит)! Good night!  
 цәыббра́(мза) September  
-ацәқәырҧа wave  
+ацәқәырҧа́ wave  
 ацәы́ргақәҵа exhibition  
 аҵа́ара freeze  
 аҵа́ра learn; teach  

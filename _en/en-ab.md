@@ -217,7 +217,7 @@ note азгәа́ҭара
 November абҵара́(мза)  
 now уажәы́  
 October жьҭаара́(мза)  
-older аиҳабы  
+older аиҳабы́  
 one (animate class); someone аӡәы́  
 onion аџьымшьы́  
 open аа́тра  

@@ -33,7 +33,7 @@ order: 901
 а́имаа ayakkabılar  
 а́иҧшра benzemek. Сара́ дсе́иҧшуп. (O) bana benziyor.  
 а́ихагыла kat  
-аиҳабы büyük (kardeş). Сашьа еиҳабы ихьӡуп Дамеи. Büyük kardeşimin adı Damey.  
+аиҳабы́ büyük (kardeş). Сашьа еиҳабы ихьӡуп Дамеи. Büyük kardeşimin adı Damey.  
 а́ицәажәара konuşmak (birbirleriyle); anlaşmak  
 а́ишәа masa; аишәа архиара masa kurmak; аишәа ахатәара masaya oturmak  
 ан anne  
@@ -170,13 +170,13 @@ kelime anlamı: evet sana iyilik görmek! Бзиа(ра) уба́аит! Karşı
 аны́ҳәа bayram. Иахьа ныҳәоуп. Bugün bayram.  
 -оуп zorunluluk anlamı veren sonek. Изга́роуп. Almalıyım. Илба́роуп. O (kadın) görmeli. Даа́роуп. O gelmeli.  
 аҧа́ра para  
-аҧенџьыр pencere  
+аҧе́нџьыр pencere  
 аҧсшьа́рҭа ҩны dinlenme evi  
 а́ҧсшәа Abhazca (eş anlamlı аҧсуа бызшәа)  
 а́ҧсшәа аҳәара selamlaşmak  
 аҧха́ sıcak  
 ҧхынҷкәы́н(мза) Aralık  
-ҧхынгәы(мза) Temmuz  
+ҧхынгәы́(мза) Temmuz  
 а́ҧхьа önde, önden, önce; başta.  
 а́ҧхьаӡара saymak  
 а́ҧхьара okumak  
@@ -222,7 +222,7 @@ kelime anlamı: evet sana iyilik görmek! Бзиа(ра) уба́аит! Karşı
 ау́сура (ау́с аура́) çalışmak  
 ау́сура iş  
 ауҭраҭы́х sebzeler  
-ya' orada  
+yа́ orada  
 уажәы́ şimdi  
 уара́ (kısa form - y(a) sen (erkek)  
 уахь oraya  
@@ -252,7 +252,7 @@ ya' orada
 хәажәкы́ра(мза) Mart  
 а́хәша yağ  
 хәыҷы́к biraz (eş anlamlı маҷк)  
-ахәыҷы çocuk; küçük  
+ахәыҷы́ çocuk; küçük  
 ҳа́мҭак uzun olmayan, az zaman  
 ҳара́ biz, kısa form ҳ(а)-)  
 а́ҳаҭыр saygı  
@@ -260,7 +260,7 @@ ya' orada
 аҳақьы́м doktor  
 аҳа́бла kasaba  
 а́ҳалал iyi kalpli  
-аҳамҭа hediye  
+аҳа́мҭа hediye  
 аҳара́ duymak, işitmek  
 аҳа́уа hava; iklim  
 а́ҳәара istemek  
@@ -278,7 +278,7 @@ ya' orada
 ацәқәырҧара́ dalgalanmak (deniz hakkında)  
 цәамҭха́а шәоуааит (уоуааит, боуааит)! İyi geceler!  
 цәыббра́(мза) Eylül  
-ацәқәырҧа dalga  
+ацәқәырҧа́ dalga  
 ацәы́ргақәҵа sergi  
 аҵа́ара donmak  
 аҵа́ра öğrenmek  
