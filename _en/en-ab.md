@@ -28,7 +28,7 @@ ask а́зҵаара, а́ҳәара
 at first а́ҧхьа  
 at lunch шьыбжьо́н  
 at the head ахаҟны́  
-at, in аҿы́, аҟны  
+at, in аҿы́, аҟны́  
 August на́нҳәа(мза)  
 autumn ҭага́лан, ҽаҩраҭага́лан  
 bark (of tree) ацәа́  
@@ -170,7 +170,7 @@ hurry а́ццакра
 husband аха́ҵа  
 I сара́ (short form - с(а))
 in the morning шьыжьла  
-in, at аҟны, аҿы́  
+in, at аҟны́, аҿы́  
 January ажьырны́ҳәа(мза)  
 judge а́ӡбара  
 July ҧхынгәы́(мза)  
@@ -208,7 +208,7 @@ morning; in the morning а́шьыжь
 mother ан  
 move аны́ҟәара  
 name ахьӡ  
-near ааигәа  
+near ааигәа́  
 neighbour агәы́ла  
 new аҿы́ц  
 no ма́п, мамо́у, ҟаи  
@@ -264,7 +264,7 @@ shop адәқьа́н
 shore аҟәара́  
 sister а(и)аҳәшьа а́(и)еҳашьа  
 sit down at the table аишәа ахатәара  
-sit атәара  
+sit атәара́  
 skin, leather ацәа́  
 sleep а́цәара  
 sleep; fade away а́цәара  

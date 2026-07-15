@@ -148,7 +148,7 @@ iklim аҳа́уа
 iş ау́с  
 iş ау́сура  
 işyeri ау́сурҭа  
-içinde аҿы́, аҟны  
+içinde аҿы́, аҟны́  
 içmek а́жәра  
 için азы́  
 ilkbahar аа́лын  
