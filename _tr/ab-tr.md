@@ -222,7 +222,7 @@ kelime anlamı: evet sana iyilik görmek! Бзиа(ра) уба́аит! Karşı
 ау́сура (ау́с аура́) çalışmak  
 ау́сура iş  
 ауҭраҭы́х sebzeler  
-yа́ orada  
+уа́ orada  
 уажәы́ şimdi  
 уара́ (kısa form - y(a) sen (erkek)  
 уахь oraya  

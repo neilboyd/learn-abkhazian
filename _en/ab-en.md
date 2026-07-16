@@ -222,7 +222,7 @@ literally: yes see you good! Бзиа(ра) уба́аит! Return greeting (add
 ау́сура (ау́с аура́) (to) work  
 ау́сура work (job)  
 ауҭраҭы́х vegetables  
-yа́ there  
+уа́ there  
 уажәы́ now  
 уара́ (short form - y(a) you (a man)  
 уахь there  
