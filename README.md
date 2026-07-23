@@ -16,7 +16,6 @@ But if that's too technical, contributions in any form are welcome.
 ## TODO
 
 Russian:
-- [ ] review 7
 - [ ] additional material
 
 English:
