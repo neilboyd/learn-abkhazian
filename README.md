@@ -15,10 +15,6 @@ But if that's too technical, contributions in any form are welcome.
 
 ## TODO
 
-English:
-- [ ] lesson 19, 20, 21, 22, review 7
-- [ ] additional material
-
 Turkish:
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
