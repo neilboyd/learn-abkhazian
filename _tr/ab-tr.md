@@ -241,7 +241,7 @@ kelime anlamı: evet sana iyilik görmek! Бзиа(ра) уба́аит! Karşı
 ахы́бра çatı; bina  
 хы́мҧада mutlaka  
 ахьӡ isim  
-ахьӡара́ yakalamak  
+ахьӡара́ yetişmek  
 а́хьӡ(заа)ра adlandırılmak  
 а́хьҭа soğuk  
 а́хьҭакра (а́хьҭа акра́) üşümek  

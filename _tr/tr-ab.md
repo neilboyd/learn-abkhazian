@@ -19,9 +19,9 @@ ağaç а́ҵла
 ağlamak аҵәу́ара  
 akıllı аҟәы́ш  
 almak агара́  
-altında а́шьҭахь  
+arkada а́шьҭахь  
 anne ан  
-anlamak а́ицәажәара  
+anlaşmak а́ицәажәара  
 Aralık ҧхынҷкәы́н(мза)  
 aramak а́ҧшаара  
 araba амашьы́на  
@@ -59,7 +59,7 @@ cadde а́мҩа
 cep аџьы́ба  
 Cumartesi аса́бша  
 Cuma ахәа́ша  
-cevap vermek а́ҳәара  
+söylemek аҳәара́  
 Çarşamba а́хаша  
 çağırmak аҿыҭра́  
 çalışmak ау́сура (ау́с аура́)  
@@ -123,7 +123,6 @@ gün амш
 gündüz амш  
 gündem амш азҵаара  
 güle güle! бзи́ала, абзи́араз!  
-gülmek аҵәу́ара  
 güneş а́мра  
 güzel а́ҧшӡа  
 güçlü а́ҕәҕәа  
@@ -159,7 +158,7 @@ işitmek аҳара́
 işte аба́р  
 ıslanmak абааӡара́  
 ılık аҟәа́нда  
-iyi а́ҳалал  
+iyi kalpli а́ҳалал  
 iyi абзи́а  
 iyi geceler! а́ҵх а́лыҧха шәо́буааит (уо́уааит, бо́уааит...)!  
 iyi geceler! цәамҭха́а шәоуааит (уоуааит, боуааит)!  
@@ -251,6 +250,7 @@ para аҧа́ра
 paylaşmak ашара́  
 Pazar амҽы́ша  
 Pazartesi ашәахьа́  
+Perşembe аҧшьа́ша  
 pazar аџьармы́ка  
 pencere аҧе́нџьыр  
 peynir ашә  
@@ -285,7 +285,7 @@ soğan аџьымшьы́
 soğuk а́хьҭа  
 soğuk а́хьшәашәа  
 soğumak а́хьшәа́шәахара  
-son а́шьҭахь  
+ardından а́шьҭахь  
 sonbahar ҭага́лан, ҽаҩраҭага́лан  
 sonra а́шьҭахь  
 sonra нас  
@@ -318,9 +318,7 @@ uğurlamak а́наскьагара
 uyumak а́цәара  
 varmak аара́  
 vermek а́ҭara  
-yakalamak ахьӡара́  
 yakında ааигәа́  
-yakmak аӡра́  
 yaprak абҕьы́  
 yaprak (küçük) абҕьы́ц  
 yapmak аҟаҵара  
@@ -338,6 +336,7 @@ yeni аҿы́ц
 yer аҭы́ҧ  
 yerleşmek аҩна́лара  
 yeşil а́еҵәа  
+yetişmek ахьӡара́  
 yıkamak а́ӡәӡәара  
 yıl а́шықәс  
 yol а́мҩа  
