@@ -19,10 +19,6 @@ English:
 - [ ] lesson 19, 20, 21, 22, review 7
 - [ ] additional material
 
-Turkish:
-- [ ] lesson 19, 20, 21, 22, review 7
-- [ ] additional material
-
 ## To run locally
 
 Clone repo, and then clone submodules:
