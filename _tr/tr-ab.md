@@ -317,7 +317,7 @@ uzun olmayan ҳа́мҭак
 uğurlamak а́наскьагара  
 uyumak а́цәара  
 varmak аара́  
-vermek а́ҭara  
+vermek а́ҭара  
 yakında ааигәа́  
 yaprak абҕьы́  
 yaprak (küçük) абҕьы́ц  
